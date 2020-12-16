@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="50" height="50" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Прямоугольник_1152" data-name="Прямоугольник 1152" width="50" height="50" transform="translate(2217 1379)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Повторяющаяся_сетка_13" data-name="Повторяющаяся сетка 13" clip-path="url(#clip-path)">
+    <g transform="translate(-1296 -1908)">
+      <g id="Группа_масок_3" data-name="Группа масок 3" transform="translate(-921 529)" clip-path="url(#clip-path-2)">
+        <g id="call_1_" data-name="call (1)" transform="translate(2217 1379)">
+          <g id="Сгруппировать_2160" data-name="Сгруппировать 2160">
+            <path id="Контур_31959" fill="#fff" data-name="Контур 31959" d="M45.988,32.819a28.388,28.388,0,0,1-8.915-1.42,4.075,4.075,0,0,0-3.963.836l-5.622,4.244A31.069,31.069,0,0,1,13.519,22.513l4.119-5.476a4.041,4.041,0,0,0,.994-4.095,28.432,28.432,0,0,1-1.426-8.93A4.017,4.017,0,0,0,13.194,0H4.012A4.017,4.017,0,0,0,0,4.012,46.04,46.04,0,0,0,45.988,50,4.017,4.017,0,0,0,50,45.988V36.831A4.017,4.017,0,0,0,45.988,32.819Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

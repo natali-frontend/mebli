@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316" height="120.466" viewBox="0 0 316 120.466">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Прямоугольник_1141" data-name="Прямоугольник 1141" width="316" height="120.466" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Прямоугольник_1142" data-name="Прямоугольник 1142" width="316" height="120.466" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Сгруппировать_2147" data-name="Сгруппировать 2147" transform="translate(0 0)">
+    <g id="Сгруппировать_2133" data-name="Сгруппировать 2133" transform="translate(0 0)">
+      <g id="Сгруппировать_2132" data-name="Сгруппировать 2132" clip-path="url(#clip-path)">
+        <text id="MEBLI" transform="translate(-6 88)" fill="#fff" font-size="90" font-family="SegoeUI, Segoe UI" letter-spacing="-0.03em"><tspan x="0" y="0">MEB</tspan><tspan y="0">LI</tspan></text>
+      </g>
+    </g>
+    <path id="Контур_31957" data-name="Контур 31957" d="M216.9,0H0" transform="translate(82.16 102.072)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Линия_224" data-name="Линия 224" x1="43.697" transform="translate(238.778 62.991)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Сгруппировать_2135" data-name="Сгруппировать 2135" transform="translate(0 0)">
+      <g id="Сгруппировать_2134" data-name="Сгруппировать 2134" clip-path="url(#clip-path-2)">
+        <path id="Контур_31952" data-name="Контур 31952" d="M154.12,89.332V30.5c0-20.8,31.726-19.961,31.726,0" transform="translate(129.074 12.741)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Контур_31953" data-name="Контур 31953" d="M156.019,55.55l-2.613,8.583a3.673,3.673,0,0,1-7.067.143l-3.01-8.726Z" transform="translate(120.036 46.523)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Контур_31954" data-name="Контур 31954" d="M100.469,55.577,97.594,64.16a4.171,4.171,0,0,1-7.784.145L86.5,55.577Z" transform="translate(11.107 46.546)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Контур_31955" data-name="Контур 31955" d="M176.446,22.5s2.381,15.549-11.1,15.968" transform="translate(138.472 18.847)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        <path id="Контур_31956" data-name="Контур 31956" d="M191.913,28.139S168.779-7.229,116.565,2.053" transform="translate(97.622 0.419)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

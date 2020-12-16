@@ -1,0 +1,87 @@
+@import "variables";
+
+.gallery {
+  padding: 240px 0 100px;
+  &-description {
+    width: 65%;
+    margin: 0 auto;
+    .description-content {
+        text-align: center;
+      h2 {
+        margin-bottom: 20px;
+      }
+      p {
+        font-weight: 500;
+        margin-bottom: 90px;
+      }
+      .btn {
+        padding: 25px 38px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .gallery {
+    padding: 190px 0 100px;
+    &-description {
+      width: 85%;
+      .description-content {
+        p {
+          margin-bottom: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .gallery {
+    padding: 150px 0 100px;
+    &-description {
+      width: 86%;
+      .description-content {
+        p {
+          margin-bottom: 70px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .gallery {
+    padding: 125px 0 60px;
+    &-description {
+      width: 80%;
+      .description-content {
+        h2 {
+          margin-bottom: 10px;
+        }
+        p {
+          line-height: 1.5625;
+          margin-bottom: 50px;
+        }
+        .btn {
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .gallery {
+    padding: 100px 0 45px;
+    &-description {
+      width: 100%;
+      .description-content {
+        p {
+          margin-bottom: 35px;
+        }
+        .btn {
+          padding: 10px;
+        }
+      }
+    }
+  }
+}

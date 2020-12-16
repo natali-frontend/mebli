@@ -1,0 +1,167 @@
+@import "variables";
+
+@media (any-hover: hover) {
+  .footer a:hover {
+    opacity: 0.7;
+  }
+}
+
+.footer {
+  background: $baseColor;
+  &-top {
+    border-bottom: 1px solid $whiteColor;
+    &-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 0 30px;
+      .tel, .email, .address {
+        position: relative;
+        img {
+          position: absolute;
+          top: 4px;
+          left: 0;
+        }
+      }
+      a {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:active {
+          opacity: 0.7;
+        }
+      }
+      .logo {
+        width: 18.3333%;
+        cursor: pointer;
+      }
+      .tel {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 42px;
+        li {
+          margin-bottom: 20px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+        img {
+          width: 22px;
+          height: 22px;
+        }
+      }
+      .info {
+        .email {
+          padding-left: 60px;
+          a {
+            margin-bottom: 20px;
+          }
+          img {
+            width: 28px;
+            height: 21px;
+          }
+        }
+        .address {
+          padding-left: 60px;
+          img {
+            left: 5px;
+            width: 19px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+  &-bottom {
+    max-width: 965px;
+    margin: 0 auto;
+    padding: 30px 0;
+    p {
+      font-size: 20px;
+      line-height: 1.35;
+      color: $whiteColor;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    &-top {
+      &-content {
+        padding: 30px 0 20px;
+      }
+      a {
+        line-height: 1.1872;
+      }
+      .tel {
+        padding-left: 18px;
+        img {
+          top: 3px;
+          width: 13px;
+          height: 13px;
+        }
+      }
+      .info {
+        .email {
+          padding-left: 27px;
+          img {
+            width: 17px;
+            height: 13px;
+          }
+        }
+        .address {
+          padding-left: 27px;
+          img {
+            left: 4px;
+            width: 11px;
+            height: 15px;
+          }
+        }
+      }
+    }
+    &-bottom {
+      max-width: 580px;
+      padding: 10px 0 15px;
+      p {
+        font-size: 12px;
+        line-height: 1.3333;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    &-top {
+      &-content {
+        padding: 20px 0 50px;
+        flex-direction: column;
+        .logo {
+          margin-bottom: 50px;
+          padding-bottom: 15px;
+          width: 66%;
+          border-bottom: 1px solid $whiteColor;
+          img {
+            width: 67%;
+            display: flex;
+            margin: 0 auto;
+          }
+        }
+        .tel {
+          padding-left: 28px;
+          margin-bottom: 50px;
+        }
+        .info {
+          img {
+            top: 3px;
+          }
+        }
+      }
+    }
+  }
+}

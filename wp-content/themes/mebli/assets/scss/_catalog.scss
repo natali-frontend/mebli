@@ -1,0 +1,105 @@
+@import "variables";
+
+@media (any-hover: hover) {
+  .catalog .catalog-inner .inner-list .inner-item:hover {
+    box-shadow: 0 20px 30px rgba(39, 179, 182, 0.16);
+  }
+}
+
+.catalog {
+  &-inner {
+    .container {
+      max-width: 1750px;
+    }
+    .inner-list {
+      display:         flex;
+      justify-content: space-between;
+      flex-wrap:       wrap;
+      padding:         135px 0 0;
+      .inner-item {
+        width:         49.40%;
+        margin-bottom: 85px;
+        border-radius: 40px;
+        cursor:        pointer;
+        &:active {
+          opacity: 0.7;
+        }
+        .item-image {
+          position: relative;
+          img {
+            display: flex;
+            opacity: 0;
+          }
+          .loading {
+            position:  absolute;
+            top:       50%;
+            left:      50%;
+            width:     66px;
+            transform: translate(-50%, -50%);
+            img {
+              opacity: 1;
+            }
+          }
+        }
+        .item-description {
+          padding: 0 0 30px 70px;
+          h2 {
+            margin-bottom: 5px;
+          }
+          p {
+            line-height: 1.20;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .catalog {
+    &-inner {
+      .inner-list {
+        padding: 60px 0 0;
+        .inner-item {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .catalog {
+    z-index:    -1;
+    background: $primaryColor;
+    &-inner {
+      .inner-list {
+        padding:        30px 0 30px;
+        flex-direction: column;
+        align-items:    center;
+        .inner-item {
+          width:         100%;
+          margin-bottom: 20px;
+          background:    $whiteColor;
+          padding:       0 30px 20px;
+          border-radius: 15px;
+          .item-image {
+            img {
+              border-radius: 15px 15px 0 0;
+            }
+          }
+          .item-description {
+            padding: 0;
+            h2 {
+              font-size:   18px;
+              font-weight: bold;
+            }
+            p {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
