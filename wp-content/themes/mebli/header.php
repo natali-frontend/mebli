@@ -26,10 +26,10 @@
                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-white.svg" alt="">
                 </a>
                 <ul class='menu'>
-                    <li class='menu-item active'><a href='#'>Главная</a></li>
-                    <li class='menu-item'><a href='#'>Про магазин</a></li>
-                    <li class='menu-item'><a href='#'>Галерея</a></li>
-                    <li class='menu-item'><a href='#'>Каталог</a></li>
+                    <li class='menu-item active'><a href='/mebli'>Главная</a></li>
+                    <li class='menu-item'><a href='/mebli/about-store'>Про магазин</a></li>
+                    <li class='menu-item'><a href='/mebli/gallery'>Галерея</a></li>
+                    <li class='menu-item'><a href='/mebli/catalog'>Каталог</a></li>
                 </ul>
                 <ul class='tel'>
                     <li>
