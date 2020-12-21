@@ -23,7 +23,7 @@
                 <div class='container'>
                     <div class='advantages-inner'>
                         <!-- Slider main container -->
-                        <div class="swiper-container swiper-no-swiping">
+                        <div class="swiper-container swiper-advantages swiper-no-swiping">
                             <!-- Additional required wrapper -->
                             <div class="swiper-wrapper">
                                 <!-- Slides -->

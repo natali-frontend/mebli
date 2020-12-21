@@ -25,22 +25,27 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 // Swiper
-    var mySwiper = new Swiper('.swiper-container', {
+    let mySwiper = new Swiper('.swiper-advantages', {
         // Optional parameters
-        loop: true,
-        spaceBetween: 20,
-        slidesPerView: 2,
+        slidesPerView: 1,
+        noSwiping: false,
+        preventClicks: false,
+        breakpoints: {
+            650: {
+                slidesPerView: 2,
+                spaceBetween: 15,
+            },
+            993: {
+                slidesPerView: 3,
+                spaceBetween: 25,
+                noSwiping: true,
+            }
+        },
         // If we need pagination
         pagination: {
             el: '.swiper-pagination',
             clickable: true,
         },
-
-        // // Navigation arrows
-        // navigation: {
-        //     nextEl: '.swiper-button-next',
-        //     prevEl: '.swiper-button-prev',
-        // },
     });
 
     let mySwiperProducts = new Swiper('.swiper-products', {
@@ -64,3 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 });
+
+
+
+
