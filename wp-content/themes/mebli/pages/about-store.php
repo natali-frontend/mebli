@@ -14,20 +14,20 @@
                     это то чем мы гордимся, наша компания дает широкий список возможностей с которыми клиент может
                     подходить к заказу своего дивана, таких как:
                 </p>
-                <ul class='production-list'>
-                    <li class='production-item'>
+                <ul>
+                    <li>
                         Изминение размерных характеристик;
                     </li>
-                    <li class='production-item'>
+                    <li>
                         Огромный выбор обивки;
                     </li>
-                    <li class='production-item'>
+                    <li>
                         Комбинирование разных тканей
                     </li>
-                    <li class='production-item hidden'>
+                    <li class=' hidden'>
                         Выбор наполнителя по уровню его плотности;
                     </li>
-                    <li class='production-item hidden'>
+                    <li class=' hidden'>
                         Добавление дополнительных ниш, и мест для белья;
                     </li>
                 </ul>
