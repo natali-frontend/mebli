@@ -1,6 +1,6 @@
 <?php /* Template Name: Page - About Store */ ?>
 <?php get_header(); ?>
-<section class='store-description-production'>
+<section class='about-store-production'>
     <div class='container'>
         <div class='production-inner'>
             <div class='inner-image'>

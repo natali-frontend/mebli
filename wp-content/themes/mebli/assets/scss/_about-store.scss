@@ -1,9 +1,10 @@
 @import "variables";
 
-.store-description {
+.about-store {
   padding: 157px 0;
   &-production {
     padding: 195px 0 0;
+    overflow: hidden;
     .production-inner {
       display: flex;
       justify-content: space-between;
@@ -66,7 +67,7 @@
 }
 
 @media screen and (max-width: 1400px){
-  .store-description {
+  .about-store {
     &-production {
       .production-inner {
         .inner-description {
@@ -92,7 +93,7 @@
 }
 
 @media screen and (max-width: 1230px){
-  .store-description {
+  .about-store {
     &-production {
       .production-inner {
         .inner-description {
@@ -121,7 +122,7 @@
 
 
 @media screen and (max-width: 992px){
-  .store-description {
+  .about-store {
     &-production {
       .production-inner {
         padding: 0 0 0 2.2%;
@@ -164,7 +165,7 @@
 }
 
 @media screen and (max-width: 650px){
-  .store-description {
+  .about-store {
     &-production {
       .production-inner {
         padding: 0;
@@ -195,7 +196,7 @@
             li {
               font-size: 14px;
               line-height: 1.25;
-              padding: 6px 0 6px 45px;
+              padding: 6px 6% 6px 45px;
               margin: 0 0 20px -20px;
               box-shadow: 0 2px 5px rgba(115, 190, 196, 0.40);
               &:before {
