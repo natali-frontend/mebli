@@ -4,7 +4,7 @@
     <div class='container'>
         <div class='production-inner'>
             <div class='inner-image'>
-                <img src='../assets/images/production.png' alt=''>
+                <img src='<?php echo get_template_directory_uri() ?>/assets/images/production.png' alt=''>
             </div>
             <div class='inner-description'>
                 <h2>Наше производство</h2>
