@@ -43,11 +43,25 @@
     flex-wrap: wrap;
     padding: 50px 0;
     .swiper-container {
-      .swiper-pagination-bullet {
-        width: 15px;
+      width: 100%;
+      .swiper-slide {
+        display: flex;
+        height: auto;
+      }
+      .swiper-pagination-bullets {
         height: 15px;
-        background: transparent;
-        border: 2px solid $mainColor;
+        bottom: 0;
+        .swiper-pagination-bullet {
+          width: 15px;
+          height: 15px;
+          background: transparent;
+          border: 2px solid $mainColor;
+          display: none;
+          margin: 0 5px;
+          &-active {
+            background: $mainColor;
+          }
+        }
       }
     }
     .inner-item {
@@ -171,6 +185,15 @@
       }
     }
     &-inner {
+      padding: 30px 0 25px;
+      .swiper-container {
+        padding-bottom: 45px;
+        .swiper-pagination-bullets {
+          .swiper-pagination-bullet {
+            display: inline-block;
+          }
+        }
+      }
       .inner-item {
         .item-description {
           padding: 30px 0;
