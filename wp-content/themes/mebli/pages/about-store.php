@@ -35,7 +35,8 @@
         </div>
     </div>
 </section>
-<section class='advantages'>
+<section class='advantages about-store-advantages'>
+    <h2>Наши преимущества</h2>
     <div class='advantages-content'>
         <div class='container'>
             <div class='advantages-inner'>
