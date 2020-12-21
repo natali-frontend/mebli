@@ -3,6 +3,10 @@
 .advantages {
   padding: 115px 0 0;
   text-align: center;
+  p {
+    font-size: 20px;
+    line-height: 1.35;
+  }
   h2 {
     margin-bottom: 40px;
   }
@@ -88,7 +92,6 @@
           margin: 0 auto;
           border: 4px solid $mainColor;
           border-radius: 50%;
-          margin-bottom: 30px;
           img {
             width: 52.41%;
           }
@@ -98,10 +101,6 @@
             color: $baseColor;
           }
         }
-        p {
-          font-size: 20px;
-          line-height: 1.35;
-        }
       }
     }
   }
@@ -109,20 +108,18 @@
 
 @media screen and (max-width: 1400px){
   .advantages {
+    p {
+      font-size: 16px;
+    }
     &-inner {
       .inner-item {
-        padding: 30px 25px;
         .item-description {
-          padding: 40px 0;
           .description-icon {
             width: 95px;
             height: 95px;
             span {
               font-size: 30px;
             }
-          }
-          p {
-            font-size: 16px;
           }
         }
       }
@@ -147,7 +144,6 @@
     &-inner {
       .inner-item {
         .item-description {
-          padding: 30px 0;
           .description-icon {
             width: 75px;
             height: 75px;
@@ -196,14 +192,13 @@
       }
       .inner-item {
         .item-description {
-          padding: 30px 0;
+          border-radius: 20px;
+          p {
+            font-size: 14px;
+          }
           .description-icon {
             width: 86px;
             height: 86px;
-          }
-          p {
-            font-size: 14px;
-            line-height: 1.28;
           }
         }
       }
