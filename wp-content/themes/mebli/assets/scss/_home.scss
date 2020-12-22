@@ -1,4 +1,9 @@
 @import "./variables";
+@media (any-hover: hover) {
+  .home .banner .btn:hover {
+    color: $whiteColor;
+  }
+}
 
 .home {
   .banner {
