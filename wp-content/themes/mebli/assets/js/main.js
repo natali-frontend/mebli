@@ -68,6 +68,25 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         },
     });
+
+    let mySwiperPreviously = new Swiper('.swiper-previously', {
+        // Optional parameters
+        slidesPerView: 1,
+        breakpoints: {
+            650: {
+
+            },
+            993: {
+                slidesPerView: 1,
+            }
+        },
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
 });
 
 

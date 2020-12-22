@@ -1,0 +1,32 @@
+@import "variables";
+
+.previously {
+  text-align: center;
+  margin-bottom: 5.21%;
+  h2 {
+    text-align: center;
+    margin-bottom: 4.7%;
+  }
+
+  &-inner {
+    display: flex;
+    justify-content: space-between;
+    .previously-item {
+      margin-right: 1.6%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+    margin-bottom: 5.21%;
+  }
+  .swiper-container {
+    .swiper-wrapper {
+      .swiper-slide {
+
+      }
+    }
+  }
+}
