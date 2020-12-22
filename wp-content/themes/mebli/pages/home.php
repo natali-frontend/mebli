@@ -84,6 +84,58 @@
                 </div>
             </div>
         </section>
+    <section class='suggestions'>
+        <div class='container'>
+            <div class='suggestions-inner'>
+                <div class='suggestions-description'>
+                    <h2>Предложения</h2>
+                    <p>
+                        Наша мебель изготовляется из екологически чистых, безвредных для здоровья человека компонентов, производством с 14-летним опытом работы, у нас вы найдете угловые, спальные, гостинные варианты.
+                    </p>
+                    <a href='#'>Каталог товаров</a>
+                </div>
+                <!-- Slider main container-->
+                <div class="swiper-container swiper-products suggestions-swiper">
+                    <!--Additional required wrapper-->
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class='viewed-products-item'>
+                                <div class='item-image'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-8.png' alt=''>
+                                </div>
+                                <div class='item-description'>
+                                    <p>Lorem ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='viewed-products-item'>
+                                <div class='item-image'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-6.png' alt=''>
+                                </div>
+                                <div class='item-description'>
+                                    <p>Lorem ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='viewed-products-item'>
+                                <div class='item-image'>
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-2.png' alt=''>
+                                </div>
+                                <div class='item-description'>
+                                    <p>Lorem ipsum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class='previously'>
             <h2>Ранее доставленные диваны</h2>
             <div class="swiper-container swiper-previously">

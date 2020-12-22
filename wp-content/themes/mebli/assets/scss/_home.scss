@@ -49,6 +49,18 @@
       }
     }
   }
+  .suggestions {
+    margin-bottom: 185px;
+    &-inner {
+      display: flex;
+    }
+    &-description {
+      width: 50vw;
+    }
+    &-swiper {
+      width: 50vw;
+    }
+  }
 }
 
 @media screen and (max-width: 1230px) {
