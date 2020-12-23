@@ -138,6 +138,6 @@
                 </div>
             </div>
         </div>
-        <a href='#' class='btn'>Замовити</a>
+        <a href='#' class='btn'>Посмотреть все фото</a>
     </section>
 <?php get_footer(); ?>
