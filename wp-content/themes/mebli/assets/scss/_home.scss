@@ -56,6 +56,10 @@
     }
   }
   .suggestions {
+    .container {
+      max-width: 1850px;
+      margin: 0 0 0 auto;
+    }
     margin-bottom: 185px;
     &-inner {
       display: flex;
