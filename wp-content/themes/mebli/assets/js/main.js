@@ -87,6 +87,11 @@ document.addEventListener('DOMContentLoaded', function () {
             disableOnInteraction: false,
         },
     });
+
+    let mySwiperFabrics = new Swiper('.swiper-fabrics', {
+        // Optional parameters
+        slidesPerView: "auto",
+    });
 });
 
 

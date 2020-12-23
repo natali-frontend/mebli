@@ -21,6 +21,97 @@
     }
   }
 }
+.fabrics {
+  margin-bottom: 5.21%;
+  .container {
+    max-width: 1850px;
+    margin: 0 0 0 auto;
+    padding-right: 0;
+  }
+  &-inner {
+    display: flex;
+  }
+  &-image {
+    width: 53.1%;
+    margin-right: 3.9%;
+  }
+  .swiper-fabrics {
+    border-radius: 40px 0 0 40px;
+    box-shadow: 0 5px 15px rgba(115, 190, 196, 0.30);
+    background: $primaryColor;
+    padding: 33px 0 33px 40px;
+    width: 46.51vw;
+    .swiper-wrapper {
+      background: $whiteColor;
+      border-radius: 40px 0 0 40px;
+    }
+  }
+  &-material {
+    position: relative;
+    display: flex;
+    background: $whiteColor;
+    .material-list {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 140px 40px 90px;
+      border-radius: 40px 0 0 40px;
+
+      .material-item {
+        width: 112px;
+        height: 112px;
+        margin: 15px;
+      }
+    }
+    .material-colors {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 100;
+      box-shadow: 0 5px 15px rgba(115, 190, 196, 0.30);
+      border-radius: 40px 0 0 40px;
+      padding: 25px 115px 25px 40px;
+      margin: 30px 0;
+      .colors-list {
+        .colors-item {
+          width: 42px;
+          height: 42px;
+          border-radius: 50px;
+          margin-bottom: 60px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .pink {
+        background: #FBF1E6;
+      }
+      .brown {
+        background: #756961;
+      }
+      .blue {
+        background: #5F7FA6;
+      }
+      .green {
+        background: #416F5C;
+      }
+      .purple {
+        background: #B1707F;
+      }
+      .grey {
+        background: #908B8F;
+      }
+    }
+  }
+}
+.products-previously {
+  h2 {
+    width: 66.8vw;
+    padding: 20px 35px 20px 0;
+    background: $primaryColor;
+    border-radius: 0 60px 60px 0;
+    text-align: right;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .feature {
