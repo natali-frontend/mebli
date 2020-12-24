@@ -6,9 +6,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-1.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
@@ -18,9 +18,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-2.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-2.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
@@ -30,9 +30,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-3.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-3.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
@@ -42,9 +42,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-4.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-4.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
@@ -54,9 +54,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-5.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-5.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
@@ -66,9 +66,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-6.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-6.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
@@ -78,9 +78,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-7.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-7.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
@@ -90,9 +90,9 @@
                 <li class='inner-item'>
                     <div class='item-image'>
                         <div class='loading'>
-                            <img src='../assets/images/icons/loading.svg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
-                        <img src='../assets/images/catalog-image-8.png' alt=''>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-8.png' alt=''>
                     </div>
                     <div class='item-description'>
                         <h2>Lorem ipsum</h2>
