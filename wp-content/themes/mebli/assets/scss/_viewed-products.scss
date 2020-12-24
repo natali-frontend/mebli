@@ -1,7 +1,7 @@
 @import "variables";
 
 .viewed-products {
-  padding-bottom: 90px;
+  margin-bottom: 90px;
   .container {
     max-width: 1720px;
   }
@@ -47,6 +47,7 @@
 
 @media screen and (max-width: 992px){
   .viewed-products {
+    margin-bottom: 60px;
     h2 {
       font-size: 18px;
     }
@@ -68,6 +69,7 @@
 
 @media screen and (max-width: 650px){
   .viewed-products {
+    margin-bottom: 50px;
     h2 {
       font-size: 14px;
     }
