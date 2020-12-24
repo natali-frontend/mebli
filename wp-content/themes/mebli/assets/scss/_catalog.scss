@@ -1,7 +1,7 @@
 @import "variables";
 
 @media (any-hover: hover) {
-  .catalog .catalog-inner .inner-list .inner-item:hover {
+  .catalog-inner .inner-list .inner-item:hover {
     box-shadow: 0 20px 30px rgba(39, 179, 182, 0.16);
   }
 }
