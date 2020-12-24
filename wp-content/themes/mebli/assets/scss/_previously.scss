@@ -7,6 +7,11 @@
     text-align: center;
     margin-bottom: 4.7%;
   }
+  &.products-previously {
+    h2 {
+      text-align: right;
+    }
+  }
   &-inner {
     display: flex;
     justify-content: space-between;
