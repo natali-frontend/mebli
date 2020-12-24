@@ -15,6 +15,7 @@
   &-inner {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5.21%;
     .previously-item {
       margin-right: 1.6%;
       display: flex;
@@ -24,23 +25,17 @@
         margin-right: 0;
       }
     }
-    margin-bottom: 5.21%;
-  }
-  .swiper-container {
-    .swiper-wrapper {
-      .swiper-slide {
-
-      }
-    }
   }
 }
-
 
 @media screen and (max-width: 992px) {
   .previously {
     margin-bottom: 7.9%;
     h2 {
       margin-bottom: 45px;
+    }
+    &-inner {
+      margin-bottom: 7.9%;
     }
   }
 }
