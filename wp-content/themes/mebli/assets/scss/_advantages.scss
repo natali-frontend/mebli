@@ -1,7 +1,7 @@
 @import "variables";
 
 .advantages {
-  margin-bottom: 4.7%;
+  margin-bottom: 9.4%;
   text-align: center;
   p {
     font-size: 20px;
@@ -28,6 +28,7 @@
     }
   }
   &.about-store-advantages {
+    margin-bottom: 4.7%;
     .advantages-content {
       margin-bottom: 5.21%;
       .advantages-inner {
@@ -163,6 +164,7 @@
 }
 @media screen and (max-width: 992px) {
   .advantages {
+    margin-bottom: 7.9%;
     h4 {
       margin-bottom: 15px;
       &:after {
@@ -173,12 +175,16 @@
       }
     }
     &.about-store-advantages {
-      .advantages-inner {
-        .inner-item {
-          .item-description {
-            padding: 8% 5% 13%;
-            p {
-              font-size: 16px;
+      margin-bottom: 7.2%;
+      .advantages-content {
+        margin-bottom: 7.9%;
+        .advantages-inner {
+          .inner-item {
+            .item-description {
+              padding: 8% 5% 13%;
+              p {
+                font-size: 16px;
+              }
             }
           }
         }
@@ -217,6 +223,7 @@
       font-size: 18px;
     }
     &.about-store-advantages {
+      margin-bottom: 6%;
       .advantages-inner {
         .inner-item {
           .item-description {
