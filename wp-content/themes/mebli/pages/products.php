@@ -22,6 +22,7 @@
         </div>
     </section>
     <section class='fabrics'>
+        <h2 class='title'>Ткани</h2>
         <div class='container'>
             <div class='fabrics-inner'>
                 <div class='fabrics-image'>
@@ -71,7 +72,7 @@
         </div>
     </section>
     <section class='previously products-previously'>
-        <h2>Ранее доставленные диваны</h2>
+        <h2 class='title'>Ранее доставленные диваны</h2>
         <div class="swiper-container swiper-previously">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
