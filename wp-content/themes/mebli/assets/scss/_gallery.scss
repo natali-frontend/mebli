@@ -19,7 +19,27 @@
       }
     }
   }
-}
+  .gallery-photography {
+    margin-bottom:  5.21%;
+    .container {
+      max-width: 1750px;
+    }
+    .photography-inner {
+      display: flex;
+      justify-content: space-between;
+    }
+    .photography-list {
+      display: flex;
+      flex-direction: column;
+      width: 31.9333%;
+    }
+    .photography-item {
+      margin-bottom: 7%;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
 
 @media screen and (max-width: 1400px) {
   .gallery {
