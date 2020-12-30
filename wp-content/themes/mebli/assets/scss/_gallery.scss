@@ -41,65 +41,51 @@
   }
 
 @media screen and (max-width: 1400px) {
-  .gallery {
-    padding: 190px 0 100px;
-    &-description {
-      width: 85%;
-      .description-content {
-        p {
-          margin-bottom: 80px;
-        }
-      }
-    }
+  .gallery-description {
+    width: 85%;
   }
 }
 
 @media screen and (max-width: 1230px) {
-  .gallery {
-    padding: 150px 0 100px;
-    &-description {
-      width: 86%;
-      .description-content {
-        p {
-          margin-bottom: 70px;
-        }
-      }
-    }
+  .gallery-description {
+    width: 86%;
   }
 }
 
 @media screen and (max-width: 992px) {
-  .gallery {
-    padding: 125px 0 60px;
-    &-description {
-      width: 80%;
-      .description-content {
-        h2 {
-          margin-bottom: 10px;
-        }
-        p {
-          line-height: 1.5625;
-          margin-bottom: 50px;
-        }
-        .btn {
-          padding: 15px;
-        }
+  .gallery-photography {
+    margin-bottom:  7.83%;
+  }
+  .gallery-description {
+    width: 80%;
+    margin-bottom: 60px;
+    .description-content {
+      h2 {
+        margin-bottom: 10px;
+      }
+      p {
+        line-height: 1.5625;
+        margin-bottom: 60px;
+      }
+      .btn {
+        padding: 15px;
       }
     }
   }
 }
 @media screen and (max-width: 650px) {
-  .gallery {
-    padding: 100px 0 45px;
-    &-description {
-      width: 100%;
-      .description-content {
-        p {
-          margin-bottom: 35px;
-        }
-        .btn {
-          padding: 10px;
-        }
+  .gallery-photography {
+    margin-bottom:  14.4%;
+  }
+  .gallery-description {
+    width: 100%;
+    margin-bottom: 50px;
+    .description-content {
+      p {
+        margin-bottom: 50px;
+      }
+      .btn {
+        padding: 10px;
       }
     }
   }
