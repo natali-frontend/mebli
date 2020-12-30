@@ -92,6 +92,30 @@ document.addEventListener('DOMContentLoaded', function () {
         // Optional parameters
         slidesPerView: "auto",
     });
+    let mySwiperSuggestions = new Swiper('.suggestions-swiper', {
+        // Optional parameters
+        slidesPerView: "auto",
+        spaceBetween: 30,
+    });
+    let SwiperReview = new Swiper('.swiper-review', {
+        // Optional parameters
+        spaceBetween: 10,
+        slidesPerView: 4,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+    });
+    let SwiperReviewTop = new Swiper('.swiper-review-top', {
+        // Optional parameters
+        spaceBetween: 10,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        thumbs: {
+            swiper: SwiperReview
+        }
+    });
 });
 
 
