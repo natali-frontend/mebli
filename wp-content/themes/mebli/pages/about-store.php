@@ -1,5 +1,20 @@
 <?php /* Template Name: Page - About Store */ ?>
 <?php get_header(); ?>
+    <div class='shop'>
+        <div class='container'>
+            <div class='shop-inner'>
+                <div class='shop-description'>
+                    <h1>Интернет-магазин <br> мягкой мебели</h1>
+                    <p>
+                        Бесплатная доставка по Киеву <br>
+                        Мебель в наличии, и под заказ <br>
+                        300+ вариантов тканей
+                    </p>
+                    <a href='#' class='btn'>Каталог товаров</a>
+                </div>
+            </div>
+        </div>
+    </div>
     <section class='about-store-production'>
         <div class='container'>
             <div class='production-inner'>
