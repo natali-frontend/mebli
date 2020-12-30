@@ -4,7 +4,6 @@
     color: $whiteColor;
   }
 }
-
 .home {
   .banner {
     position:            relative;
@@ -80,10 +79,15 @@
       }
     }
     &-swiper {
-      width: 50vw;
-    }
-    .swiper-container {
-      padding-left: 65px;
+      width: 63vw;
+      &.swiper-container {
+        padding-left: 65px;
+        margin: 0;
+        .swiper-wrapper {
+          .swiper-slide {
+          }
+        }
+      }
     }
   }
 }
