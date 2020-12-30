@@ -12,6 +12,50 @@
                     </p>
                     <a href='#' class='btn'>Каталог товаров</a>
                 </div>
+                <div class='shop-slider'>
+                    <div class="swiper-container swiper-review-top">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-container swiper-review">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
