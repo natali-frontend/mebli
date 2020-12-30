@@ -1,5 +1,74 @@
 <?php /* Template Name: Page - Products */ ?>
 <?php get_header(); ?>
+    <section class='review'>
+        <div class='container'>
+            <div class='review-inner'>
+                <div class='review-slider'>
+                    <div class="swiper-container swiper-review-top">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-container swiper-review">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                            <div class="swiper-slide">
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class='review-description'>
+                    <div class='description-text'>
+                        <h2>Lorem ipsum</h2>
+                        <h3>$599.00</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                        </p>
+                    </div>
+                    <div class='review-buttons'>
+                        <a href='#'>Характеристика</a>
+                        <a href='#'>Ткани</a>
+                        <a href='#'>Анимация трансформации</a>
+                    </div>
+                    <a href='#' class='btn'>Заказать</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
     <section class='feature'>
         <div class='container'>
             <div class='feature-description'>
