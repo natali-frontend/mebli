@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 
-    let mySwiperProducts = new Swiper('.swiper-products', {
+    let mySwiperProducts = new Swiper('.swiper-viewed', {
         // Optional parameters
         slidesPerView: 1,
         // preventClicks: false,

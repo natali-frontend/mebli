@@ -209,7 +209,7 @@
     <section class='viewed-products'>
         <div class='container'>
             <!-- Slider main container-->
-            <div class="swiper-container swiper-products">
+            <div class="swiper-container swiper-viewed">
                 <!--Additional required wrapper-->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
