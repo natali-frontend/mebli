@@ -96,9 +96,9 @@
                 </div>
                 <!-- Slider main container-->
                 <div class="swiper-container swiper-products suggestions-swiper">
-                    <!--Additional required wrapper-->
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
+                    <!--Additional required wrapper-->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
@@ -137,75 +137,75 @@
         </div>
     </section>
     <section class='previously'>
-            <h2>Ранее доставленные диваны</h2>
-            <div class="swiper-container swiper-previously">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">
-                        <div class='previously-inner'>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png' alt=''>
-                                </div>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png' alt=''>
-                                </div>
+        <h2>Ранее доставленные диваны</h2>
+        <div class="swiper-container swiper-previously">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class='previously-inner'>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png' alt=''>
                             </div>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png' alt=''>
-                                </div>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png' alt=''>
                             </div>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png' alt=''>
-                                </div>
+                        </div>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png' alt=''>
                             </div>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png' alt=''>
-                                </div>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png' alt=''>
-                                </div>
+                        </div>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png' alt=''>
+                            </div>
+                        </div>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png' alt=''>
+                            </div>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png' alt=''>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class='previously-inner'>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png' alt=''>
-                                </div>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png' alt=''>
-                                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class='previously-inner'>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png' alt=''>
                             </div>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png' alt=''>
-                                </div>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png' alt=''>
                             </div>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png' alt=''>
-                                </div>
+                        </div>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png' alt=''>
                             </div>
-                            <div class='previously-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png' alt=''>
-                                </div>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png' alt=''>
-                                </div>
+                        </div>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png' alt=''>
+                            </div>
+                        </div>
+                        <div class='previously-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png' alt=''>
+                            </div>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png' alt=''>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <a href='#' class='btn'>Посмотреть все фото</a>
-        </section>
+        </div>
+        <a href='#' class='btn'>Посмотреть все фото</a>
+    </section>
     <section class='viewed-products'>
         <div class='container'>
             <!-- Slider main container-->
