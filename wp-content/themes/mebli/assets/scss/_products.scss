@@ -8,14 +8,11 @@
   &-inner {
     display: flex;
     justify-content: space-between;
-    //align-items: center;
     .review-slider {
       position: relative;
       padding: 0 95px;
       .swiper-container {
         width: 38.55vw;
-      }
-      .swiper-review-top {
       }
       .swiper-review {
         height: 20%;
@@ -176,6 +173,36 @@
       }
       .grey {
         background: #908B8F;
+      }
+    }
+  }
+}
+.transformation {
+  .container {
+    max-width: 1755px;
+  }
+  &-inner {
+    .transformation-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .transformation-item {
+      .item-image {
+        position: relative;
+        &:after {
+          content:    "";
+          width:      100%;
+          height:     100%;
+          background: rgba(0, 0, 0, 0.30);
+          position: absolute;
+          top: 0;
+          left: 0;
+        }
+      }
+      .transformation-image {
+        width: 59%;
+        margin: 0 0 80px 160px;
       }
     }
   }

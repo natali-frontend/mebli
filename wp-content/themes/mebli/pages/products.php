@@ -140,6 +140,58 @@
             </div>
         </div>
     </section>
+    <section class='transformation'>
+        <h2 class='title'>Анимация трансформации</h2>
+        <div class='container'>
+            <div class='transformation-inner'>
+                <div class='transformation-list'>
+                        <div class='transformation-item'>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-1.png' alt=''>
+                            </div>
+                            <div class='item-image'>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-2.png' alt=''>
+                            </div>
+                        </div>
+                        <div class='transformation-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                        </div>
+                    </div>
+                <div class='transformation-list'>
+                    <div class='transformation-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-3.png' alt=''>
+                        </div>
+                    </div>
+                    <div class='transformation-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-4.png' alt=''>
+                        </div>
+                    </div>
+                    <div class='transformation-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-5.png' alt=''>
+                        </div>
+                    </div>
+                    <div class='transformation-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-6.png' alt=''>
+                        </div>
+                    </div>
+                    <div class='transformation-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-7.png' alt=''>
+                        </div>
+                    </div>
+                    <div class='transformation-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/transformation-image-8.png' alt=''>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class='previously products-previously'>
         <h2 class='title'>Ранее доставленные диваны</h2>
         <div class="swiper-container swiper-previously">
