@@ -2,7 +2,29 @@
 
 .shop {
   &-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .shop-slider {
+      position: relative;
+      //padding: 0 95px;
+      .swiper-container {
+        width: 48.5vw;
+      }
+      .swiper-review {
+        height: 20%;
+        box-sizing: border-box;
+        padding: 10px 0;
+        .swiper-wrapper {
+          .swiper-slide {
+            width: 25%;
+            opacity: 1;
+          }
+        }
+      }
+    }
     .shop-description {
+      width: 32.3vw;
       h1 {
         margin-bottom: 30px;
       }
