@@ -8,9 +8,7 @@
     .shop-slider {
       position: relative;
       //padding: 0 95px;
-      .swiper-container {
-        width: 48.5vw;
-      }
+      width: 48.5%;
       .swiper-review {
         height: 20%;
         box-sizing: border-box;
@@ -24,7 +22,7 @@
       }
     }
     .shop-description {
-      width: 32.3vw;
+      width: 42.3%;
       h1 {
         margin-bottom: 30px;
       }

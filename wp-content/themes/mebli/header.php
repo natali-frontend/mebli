@@ -18,16 +18,17 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<header id="header" class='header transparent'>
+<header id="header" class='header <?php if (is_page_template('pages/home.php')) echo "transparent"; ?>'>
     <div class='container'>
         <div class='header-content'>
             <div class='header-top'>
                 <a href='#' class='logo'>
                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-white.svg" alt="">
-                    <img class="logo-home" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
+                    <img class="logo-home"
+                         src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
                 </a>
                 <div class='menu'>
-                    <ul >
+                    <ul>
                         <li class='menu-item active'><a href='/mebli'>Главная</a></li>
                         <li class='menu-item'><a href='/mebli/about-store'>Про магазин</a></li>
                         <li class='menu-item'><a href='/mebli/gallery'>Галерея</a></li>

@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const burger = document.getElementsByClassName("burger")[0];
     const menu = document.getElementsByClassName("menu")[0];
-    const header = document.getElementById("header");
 
     // Burger menu
     burger.addEventListener("click", function () {
@@ -10,14 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.toggle("mobile-menu")
     });
 
-    // Header
-    window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 120) {
-            header.classList.remove('transparent');
-        } else {
-            header.classList.add('transparent');
-        }
-    });
+
     // const dropDown = document.getElementsByClassName("list-item");
     // for (let i = 0; i < dropDown.length; i++) {
     //     dropDown[i].addEventListener("click", function () {
