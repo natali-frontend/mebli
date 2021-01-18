@@ -17,8 +17,13 @@
 }
 
 .header {
+  position:        fixed;
+  z-index:         100;
+  top:             0;
+  left:            0;
+  width:           100%;
   background: $primaryColor;
-  box-shadow: 0 5px 15px rgba(39, 179, 182, 0.2);
+  box-shadow: 0 5px 15px 0 rgba(115, 190, 196, 0.3);
   .container {
     max-width: 1810px;
   }
@@ -27,11 +32,16 @@
     box-shadow: none;
     .header-content {
       .header-top {
-        padding:    40px 40px 20px;
-        position:   fixed;
-        z-index:    100;
-        width:      100%;
+        padding:    40px 20px;
         background: transparent;
+        .logo {
+          img:nth-child(1) {
+            display: block;
+          }
+          img:nth-child(2) {
+            display: none;
+          }
+        }
         .menu {
           &-item {
             a {
@@ -75,20 +85,18 @@
   }
   &-content {
     .header-top {
-      position:        fixed;
-      z-index:         100;
-      top:             0;
-      left:            0;
-      width:           100%;
       background:      $primaryColor;
       display:         flex;
       justify-content: space-between;
       align-items:     center;
-      padding:         40px 40px 15px;
+      padding:         20px 20px;
       .logo {
         width:        13.69%;
         margin-right: 45px;
         cursor: pointer;
+        img:nth-child(1) {
+          display: none;
+        }
       }
       .menu {
         display:      flex;

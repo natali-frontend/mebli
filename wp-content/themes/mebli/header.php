@@ -18,12 +18,13 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<header class='header transparent'>
+<header id="header" class='header transparent'>
     <div class='container'>
         <div class='header-content'>
             <div class='header-top'>
                 <a href='#' class='logo'>
                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-white.svg" alt="">
+                    <img class="logo-home" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
                 </a>
                 <ul class='menu'>
                     <li class='menu-item active'><a href='/mebli'>Главная</a></li>

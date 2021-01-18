@@ -2,29 +2,40 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const burger = document.getElementsByClassName("burger")[0];
     const menu = document.getElementsByClassName("menu")[0];
+    const header = document.getElementById("header");
+
+    // Burger menu
     burger.addEventListener("click", function () {
         this.classList.toggle("active");
         menu.classList.toggle("mobile-menu")
     });
 
-    const dropDown = document.getElementsByClassName("list-item");
-    for (let i = 0; i < dropDown.length; i++) {
-        dropDown[i].addEventListener("click", function () {
-            this.classList.toggle("show");
-        });
-    }
+    // Header
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > 120) {
+            header.classList.remove('transparent');
+        } else {
+            header.classList.add('transparent');
+        }
+    });
+    // const dropDown = document.getElementsByClassName("list-item");
+    // for (let i = 0; i < dropDown.length; i++) {
+    //     dropDown[i].addEventListener("click", function () {
+    //         this.classList.toggle("show");
+    //     });
+    // }
 
-    const submenu = document.getElementsByClassName("submenu-item");
-    for (let i = 0; i < submenu.length; i++) {
-        submenu[i].addEventListener("click", function () {
-            for (let i = 0; i < submenu.length; i++) {
-                submenu[i].classList.remove("active");
-            }
-            this.classList.add("active");
-        });
-    }
+    // const submenu = document.getElementsByClassName("submenu-item");
+    // for (let i = 0; i < submenu.length; i++) {
+    //     submenu[i].addEventListener("click", function () {
+    //         for (let i = 0; i < submenu.length; i++) {
+    //             submenu[i].classList.remove("active");
+    //         }
+    //         this.classList.add("active");
+    //     });
+    // }
 
-// Swiper
+    // Swiper
     let mySwiper = new Swiper('.swiper-advantages', {
         // Optional parameters
         slidesPerView: 1,
@@ -47,7 +58,6 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
         },
     });
-
     let mySwiperViewed = new Swiper('.swiper-viewed', {
         // Optional parameters
         slidesPerView: 1,
@@ -88,14 +98,13 @@ document.addEventListener('DOMContentLoaded', function () {
             prevEl: '.swiper-button-prev',
         },
     });
-
     let mySwiperPreviously = new Swiper('.swiper-previously', {
         // Optional parameters
         slidesPerView: 1,
+        speed: 3000,
+        loop: true,
         breakpoints: {
-            650: {
-
-            },
+            650: {},
             993: {
                 slidesPerView: 1,
             }
@@ -107,7 +116,6 @@ document.addEventListener('DOMContentLoaded', function () {
             disableOnInteraction: false,
         },
     });
-
     let mySwiperFabrics = new Swiper('.swiper-fabrics', {
         // Optional parameters
         slidesPerView: "auto",

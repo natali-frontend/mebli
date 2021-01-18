@@ -1,9 +1,11 @@
 @import "./variables";
+
 @media (any-hover: hover) {
   .home .banner .btn:hover {
     color: $whiteColor;
   }
 }
+
 .home {
   .banner {
     position:            relative;
@@ -13,7 +15,7 @@
     background-position: center;
     height:              100vh;
     min-height:          1080px;
-    margin-bottom: 6%;
+    margin-bottom:       6%;
     &-overlay {
       position:   absolute;
       top:        0;
@@ -55,19 +57,19 @@
     }
   }
   .suggestions {
-    .container {
-      max-width: 1760px;
-      margin: 0 0 0 auto;
-      padding-right: 0;
-    }
+    position:      relative;
     margin-bottom: 9.64%;
+    overflow:      hidden;
+    .container {
+      position: initial;
+    }
     &-inner {
-      display: flex;
+      display:         flex;
       justify-content: space-between;
     }
     &-description {
-      width: 27%;
-      margin: 0 90px 0 45px;
+      width:  31%;
+      margin: 0 6% 0 3%;
       h2 {
         margin-bottom: 20px;
       }
@@ -79,14 +81,15 @@
       }
     }
     &-swiper {
-      width: 63vw;
       &.swiper-container {
         padding-left: 65px;
-        margin: 0;
-        .swiper-wrapper {
-          .swiper-slide {
-          }
-        }
+        margin:       0;
+        position:     absolute;
+        width:        63vw;
+        max-width:    1600px;
+        right:        0;
+        top:          50%;
+        transform:    translate(16%, -50%);
       }
     }
   }
@@ -177,6 +180,35 @@
           h2 {
             margin-bottom: 10px;
           }
+        }
+      }
+    }
+    .suggestions {
+      &-inner {
+        flex-direction: column-reverse;
+      }
+      .container {
+        padding: 0;
+      }
+      &-description {
+        width:  100%;
+        margin: 0;
+        padding: 30px 15px;
+      }
+      &-swiper {
+        max-width: 80%;
+        &.swiper-container {
+          position:         relative;
+          top:              0;
+          transform:        translate(0, 0);
+          width:            100%;
+          margin:           0;
+          padding:          40px 0 40px 20%;
+          background-color: $primaryColor;
+
+        }
+        .item-description {
+          text-align: center;
         }
       }
     }
