@@ -26,12 +26,14 @@
                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-white.svg" alt="">
                     <img class="logo-home" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
                 </a>
-                <ul class='menu'>
-                    <li class='menu-item active'><a href='/mebli'>Главная</a></li>
-                    <li class='menu-item'><a href='/mebli/about-store'>Про магазин</a></li>
-                    <li class='menu-item'><a href='/mebli/gallery'>Галерея</a></li>
-                    <li class='menu-item'><a href='/mebli/catalog'>Каталог</a></li>
-                </ul>
+                <div class='menu'>
+                    <ul >
+                        <li class='menu-item active'><a href='/mebli'>Главная</a></li>
+                        <li class='menu-item'><a href='/mebli/about-store'>Про магазин</a></li>
+                        <li class='menu-item'><a href='/mebli/gallery'>Галерея</a></li>
+                        <li class='menu-item'><a href='/mebli/catalog'>Каталог</a></li>
+                    </ul>
+                </div>
                 <ul class='tel'>
                     <li>
                         <a href='tel:+(380)900-000-000'>+(380)900-000-000</a>
