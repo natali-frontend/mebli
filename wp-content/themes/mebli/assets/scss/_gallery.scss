@@ -1,44 +1,46 @@
 @import "variables";
 
-  .gallery-description {
-    width: 65%;
-    margin: 0 auto  5.21%;
-    .description-content {
-        text-align: center;
-      h2 {
-        margin-bottom: 20px;
-      }
-      p {
-        font-weight: 500;
-        margin-bottom: 8.6%;
-      }
-      .btn {
-        padding: 25px 38px;
-      }
+.gallery-description {
+  width:  65%;
+  margin: 0 auto 5.21%;
+  .description-content {
+    text-align: center;
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      font-weight:   500;
+      margin-bottom: 8.6%;
+    }
+    .btn {
+      padding: 25px 38px;
     }
   }
-  .gallery-photography {
-    margin-bottom:  5.21%;
-    .container {
-      max-width: 1750px;
-    }
-    .photography-inner {
-      display: flex;
-      justify-content: space-between;
-    }
-    .photography-list {
-      display: flex;
-      flex-direction: column;
-      width: 31.9333%;
-    }
-    .photography-item {
-      position: relative;
-      margin-bottom: 7%;
-      &:last-child {
-        margin-bottom: 0;
-      }
+}
+
+.gallery-photography {
+  margin-bottom: 5.21%;
+  .container {
+    max-width: 1750px;
+  }
+  .photography-inner {
+    display:         flex;
+    justify-content: space-between;
+    position:        relative;
+  }
+  .photography-list {
+    display:        flex;
+    flex-direction: column;
+    width:          31.9333%;
+  }
+  .photography-item {
+    position:      relative;
+    margin-bottom: 7%;
+    &:last-child {
+      margin-bottom: 0;
     }
   }
+}
 
 @media screen and (max-width: 1400px) {
   .gallery-description {
@@ -54,17 +56,17 @@
 
 @media screen and (max-width: 992px) {
   .gallery-photography {
-    margin-bottom:  7.83%;
+    margin-bottom: 7.83%;
   }
   .gallery-description {
-    width: 80%;
+    width:         80%;
     margin-bottom: 60px;
     .description-content {
       h2 {
         margin-bottom: 10px;
       }
       p {
-        line-height: 1.5625;
+        line-height:   1.5625;
         margin-bottom: 60px;
       }
       .btn {
@@ -73,12 +75,13 @@
     }
   }
 }
+
 @media screen and (max-width: 650px) {
   .gallery-photography {
-    margin-bottom:  14.4%;
+    margin-bottom: 14.4%;
   }
   .gallery-description {
-    width: 100%;
+    width:         100%;
     margin-bottom: 50px;
     .description-content {
       p {

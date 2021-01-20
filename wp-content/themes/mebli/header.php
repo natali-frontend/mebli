@@ -63,4 +63,4 @@
         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/call.svg" alt="">
     </a>
 </div>
-<main class='home'>
+<main class='home <?php if (!is_page_template('pages/home.php')) echo "pt-header"; ?>''>

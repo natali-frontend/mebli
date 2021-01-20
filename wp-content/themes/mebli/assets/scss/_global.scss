@@ -1,10 +1,11 @@
 @import "variables";
+
 @media (any-hover: hover) {
   .btn:hover {
     background: transparent;
-    border:  2px solid $baseColor;
-    color: $baseColor;
-    opacity: 1;
+    border:     2px solid $baseColor;
+    color:      $baseColor;
+    opacity:    1;
   }
   a:hover {
     opacity: 0.7;
@@ -37,13 +38,13 @@ ul {
 a {
   text-decoration: none;
   cursor:          pointer;
-  font-size: 24px;
-  line-height: 1.20;
-  color: $whiteColor;
+  font-size:       24px;
+  line-height:     1.20;
+  color:           $whiteColor;
 }
 
 img {
-  width: 100%;
+  width:   100%;
   display: flex;
 }
 
@@ -59,82 +60,84 @@ main {
 }
 
 h1 {
-  font-size: 60px;
+  font-size:   60px;
   font-weight: 700;
   line-height: 1;
 }
 
 h2 {
-  font-size: 38px;
+  font-size:   38px;
   font-weight: 700;
   line-height: 1.23;
 }
 
 p {
-  font-size: 24px;
+  font-size:   24px;
   font-weight: 400;
   line-height: 1.45;
 }
+
 form {
-  display: flex;
+  display:        flex;
   flex-direction: column;
   label {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    margin-bottom: 8.8%;
+    margin-bottom:  8.8%;
     &:nth-child(3) {
       margin-bottom: 16.7%;
     }
     input {
-      border: none;
+      border:        none;
       border-bottom: 3px solid $baseColor;
-      font-size: 20px;
-      line-height: 1.2;
-      padding: 0 0 10px;
+      font-size:     20px;
+      line-height:   1.2;
+      padding:       0 0 10px;
       margin-bottom: 5px;
     }
     span {
-      font-size: 18px;
+      font-size:   18px;
       line-height: 1.2;
-      color: $baseColor;
+      color:       $baseColor;
     }
   }
 }
+
 .btn {
-  display: inline-block;
-  background: $baseColor;
-  color: $whiteColor;
+  display:       inline-block;
+  background:    $baseColor;
+  color:         $whiteColor;
   border-radius: 50px;
-  border: 2px solid transparent;
-  padding: 24px 40px;
-  min-width: 270px;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.2;
-  text-align: center;
+  border:        2px solid transparent;
+  padding:       24px 40px;
+  min-width:     270px;
+  font-size:     24px;
+  font-weight:   600;
+  line-height:   1.2;
+  text-align:    center;
   &:active {
     opacity: .7;
   }
 }
 
 .call {
-  display: none;
-  position: fixed;
-  bottom: 15px;
-  right: 15px;
-  z-index: 100;
+  display:       none;
+  position:      fixed;
+  bottom:        15px;
+  right:         15px;
+  z-index:       100;
   border-radius: 50%;
-  border: 1px solid $baseColor;
-  padding: 5px;
-  background: $whiteColor;
+  border:        1px solid $baseColor;
+  padding:       5px;
+  background:    $whiteColor;
   .call-icon {
-    display: flex;
-    background: $baseColor;
+    display:       flex;
+    background:    $baseColor;
     border-radius: 50%;
-    padding: 11px;
+    padding:       11px;
     img {
-      width: 24px;
-      height: 24px;
+      width:   24px;
+      height:  24px;
       display: flex;
     }
   }
@@ -150,16 +153,23 @@ form {
   padding:   0 40px;
   margin:    0 auto;
   position:  relative;
-  height: 100%;
+  height:    100%;
+}
+
+.pt-header {
+  padding-top: 128px;
 }
 
 @media screen and (max-width: 1230px) {
   .container {
-     padding: 0 30px;
+    padding: 0 30px;
   }
   h1 {
-    font-size: 50px;
+    font-size:   50px;
     line-height: 1.1;
+  }
+  .pt-header {
+    padding-top: 100px;
   }
 }
 
@@ -167,16 +177,16 @@ form {
 @media screen and (max-width: 992px) {
   .btn {
     font-size: 16px;
-    padding: 15px 20px;
+    padding:   15px 20px;
     min-width: 176px;
   }
   h1 {
-    font-size: 40px;
+    font-size:   40px;
     line-height: 1.25;
   }
   h2 {
-    font-size: 20px;
-    line-height:   1.2;
+    font-size:   20px;
+    line-height: 1.2;
   }
   p, a {
     font-size: 16px;
@@ -185,14 +195,17 @@ form {
     label {
       input {
         border-bottom: 2px solid $baseColor;
-        font-size: 16px;
-        line-height: 1.1875;
+        font-size:     16px;
+        line-height:   1.1875;
       }
       span {
-        font-size: 14px;
+        font-size:   14px;
         line-height: 1.2857;
       }
     }
+  }
+  .pt-header {
+    padding-top: 72px;
   }
 }
 
@@ -202,21 +215,21 @@ form {
   }
   .btn {
     font-size: 14px;
-    padding: 10px 15px;
+    padding:   10px 15px;
     min-width: 138px;
   }
   .call {
     display: block;
   }
   h1 {
-    font-size: 25px;
+    font-size:   25px;
     line-height: 1.2;
   }
   h2 {
     font-size: 16px;
   }
   p, a {
-    font-size: 14px;
+    font-size:   14px;
     line-height: 1.28;
   }
   form {
@@ -226,13 +239,16 @@ form {
         margin-bottom: 9.8%;
       }
       input {
-        font-size: 12px;
-        line-height: 1.25;
+        font-size:     12px;
+        line-height:   1.25;
         border-bottom: 1px solid $baseColor;
       }
       span {
         font-size: 12px;
       }
     }
+  }
+  .pt-header {
+    padding-top: 55px;
   }
 }
