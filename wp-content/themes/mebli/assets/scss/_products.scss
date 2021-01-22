@@ -251,4 +251,22 @@
       padding: 9px 20px 9px 0;
     }
   }
+  .review {
+    &-inner {
+      flex-direction: column;
+      align-items:    center;
+      .review-description {
+        width: 100%;
+        .description-text {
+          h2, h3 {
+            margin-bottom: 0;
+          }
+        }
+      }
+      .review-slider {
+        .swiper-container {
+        }
+      }
+    }
+  }
 }

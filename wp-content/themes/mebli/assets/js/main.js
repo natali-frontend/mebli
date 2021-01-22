@@ -130,6 +130,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     let SwiperReviewTop = new Swiper('.swiper-review-top', {
         // Optional parameters
+        slidesPerView: 1,
+        centeredSlides: true,
         spaceBetween: 10,
         navigation: {
             nextEl: '.swiper-button-next',
