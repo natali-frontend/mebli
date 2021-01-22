@@ -71,20 +71,17 @@
         width: 100%;
         height: 100%;
         border: 3px solid $whiteColor;
-        &:after {
-          content: "";
+        img {
           width: 95px;
           height: 95px;
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          background-image: url("../images/icons/enlarge.svg");
           z-index: 1;
         }
       }
     }
-
   }
 }
 
@@ -103,6 +100,17 @@
 @media screen and (max-width: 992px) {
   .gallery-photography {
     margin-bottom: 7.83%;
+    .photography-item {
+      .item-bg {
+        padding: 10px;
+        .border {
+          img {
+            width: 45px;
+            height: 45px;
+          }
+        }
+      }
+    }
   }
   .gallery-description {
     width:         80%;
