@@ -84,6 +84,15 @@
       padding: 0 10px;
     }
     margin-bottom: 14.4%;
+    .photography-inner {
+      .photography-list {
+        width: calc(50% - 10px);
+        margin: 0 5px;
+      }
+      .photography-item {
+        margin-bottom: 10px;
+      }
+    }
   }
   .gallery-description {
     width:         100%;
