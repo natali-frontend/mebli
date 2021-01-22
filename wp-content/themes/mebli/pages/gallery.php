@@ -17,34 +17,61 @@
                 <div class='photography-list'>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-1.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-2.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-3.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                 </div>
                 <div class='photography-list'>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-4.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-5.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                 </div>
                 <div class='photography-list'>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-6.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-7.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-8.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                     <div class='photography-item'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/photography-image-9.png' alt=''>
+                        <div class='item-bg'>
+                            <div class='border'></div>
+                        </div>
                     </div>
                 </div>
             </div>

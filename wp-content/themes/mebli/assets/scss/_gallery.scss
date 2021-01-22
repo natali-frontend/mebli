@@ -1,5 +1,16 @@
 @import "variables";
 
+@media (any-hover: hover) {
+  .gallery-photography {
+    .photography-item:hover {
+      .item-bg {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
+
 .gallery-description {
   padding-top: 60px;
   width:  65%;
@@ -36,11 +47,44 @@
     width:          31.9333%;
   }
   .photography-item {
+    overflow: hidden;
     position:      relative;
     margin-bottom: 7%;
+    cursor: pointer;
     &:last-child {
       margin-bottom: 0;
     }
+    .item-bg {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 10px 15px;
+      z-index: 5;
+      transition: .4s linear;
+      .border {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: 3px solid $whiteColor;
+        &:after {
+          content: "";
+          width: 95px;
+          height: 95px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          background-image: url("../images/icons/enlarge.svg");
+          z-index: 1;
+        }
+      }
+    }
+
   }
 }
 
