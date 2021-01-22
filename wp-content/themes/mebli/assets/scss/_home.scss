@@ -128,7 +128,8 @@
 @media screen and (max-width: 992px) {
   .home {
     .banner {
-      min-height: 761px;
+      min-height:    761px;
+      margin-bottom: 55px;
       &-inner {
         justify-content: center;
         .inner-description {
@@ -171,7 +172,8 @@
 @media screen and (max-width: 650px) {
   .home {
     .banner {
-      min-height: 480px;
+      min-height:    480px;
+      margin-bottom: 50px;
       &-inner {
         .inner-description {
           h1 {
