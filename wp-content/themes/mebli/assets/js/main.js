@@ -53,6 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
     let mySwiperViewed = new Swiper('.swiper-viewed', {
         // Optional parameters
         slidesPerView: 1,
+        centeredSlides: false,
+
         // preventClicks: false,
         breakpoints: {
             650: {
@@ -73,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function () {
     let mySwiperProducts = new Swiper('.swiper-products', {
         // Optional parameters
         slidesPerView: 1,
-        // preventClicks: false,
         breakpoints: {
             650: {
                 slidesPerView: 2,
