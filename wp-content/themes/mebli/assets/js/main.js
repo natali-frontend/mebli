@@ -92,17 +92,20 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     let mySwiperPreviously = new Swiper('.swiper-previously', {
         // Optional parameters
-        slidesPerView: 1,
+        slidesPerView: 2,
         speed: 3000,
         loop: true,
+        spaceBetween: 15,
+        centeredSlides: false,
         breakpoints: {
-            650: {},
+            650: {
+                slidesPerView: 3,
+            },
             993: {
-                slidesPerView: 1,
+                slidesPerView: 4,
+                spaceBetween: 25,
             }
         },
-        spaceBetween: 30,
-        centeredSlides: true,
         autoplay: {
             delay: 2500,
             disableOnInteraction: false,
