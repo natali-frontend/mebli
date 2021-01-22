@@ -80,6 +80,13 @@
       }
       a {
         color: $baseColor;
+        display: flex;
+        align-items: center;
+        img {
+          width: 25px;
+          height: 30px;
+          margin-right: 15px;
+        }
       }
     }
     &-swiper {
