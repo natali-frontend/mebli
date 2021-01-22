@@ -7,8 +7,6 @@
   }
   .swiper-button-prev, .swiper-button-next {
     top: 35%;
-    width: 25px;
-    height: 46px;
   }
   .swiper-button-prev {
     left: 40px;
@@ -29,7 +27,7 @@
   }
 }
 
-@media screen and (max-width: 1400px){
+@media screen and (max-width: 1400px) {
   .viewed-products {
     h2 {
       font-size: 30px;
@@ -37,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 1230px){
+@media screen and (max-width: 1230px) {
   .viewed-products {
     h2 {
       font-size: 22px;
@@ -45,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
   .viewed-products {
     margin-bottom: 60px;
     h2 {
@@ -56,8 +54,9 @@
     }
     .swiper-button-prev, .swiper-button-next {
       top: 35%;
-      width: 10px;
-      height: 20px;
+      &:after {
+        font-size: 20px;
+      }
     }
     &-item {
       .item-image {
@@ -67,7 +66,7 @@
   }
 }
 
-@media screen and (max-width: 650px){
+@media screen and (max-width: 650px) {
   .viewed-products {
     margin-bottom: 50px;
     h2 {
@@ -76,10 +75,17 @@
     p {
       font-size: 12px;
     }
+    .swiper-container {
+      margin: 0 45px;
+    }
     .swiper-button-prev, .swiper-button-next {
       top: 35%;
-      width: 7px;
-      height: 14px;
+    }
+    .swiper-button-prev {
+      left: 15px;
+    }
+    .swiper-button-next {
+      right: 15px;
     }
     &-item {
       .item-image {
