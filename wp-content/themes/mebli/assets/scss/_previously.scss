@@ -1,15 +1,15 @@
 @import "variables";
 
 .previously {
-  text-align: center;
+  text-align:    center;
   margin-bottom: 5.21%;
   h2 {
-    text-align: center;
+    text-align:    center;
     margin-bottom: 4.7%;
   }
   &.products-previously {
     h2 {
-      text-align: right;
+      text-align:    right;
       margin-bottom: 5.7%;
     }
   }
@@ -20,12 +20,12 @@
     }
   }
   .previously-item {
-    display: flex;
+    display:        flex;
     flex-direction: column;
-    height: 100%;
+    height:         100%;
     .item-image {
       margin-bottom: 25px;
-      height: 100%;
+      height:        100%;
       &:last-child {
         margin-bottom: 0;
       }

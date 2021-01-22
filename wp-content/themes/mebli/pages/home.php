@@ -90,12 +90,19 @@
         <div class='container'>
             <div class='suggestions-inner'>
                 <div class='suggestions-description'>
-                    <h2>Предложения</h2>
-                    <p>
-                        Наша мебель изготовляется из екологически чистых, безвредных для здоровья человека компонентов,
-                        производством с 14-летним опытом работы, у нас вы найдете угловые, спальные, гостинные варианты.
-                    </p>
-                    <a href='#'>Каталог товаров</a>
+                    <div>
+                        <h2>Предложения</h2>
+                        <p>
+                            Наша мебель изготовляется из екологически чистых, безвредных для здоровья человека
+                            компонентов,
+                            производством с 14-летним опытом работы, у нас вы найдете угловые, спальные, гостинные
+                            варианты.
+                        </p>
+                    </div>
+                    <a href='#'>
+                        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/left-arrow.svg' alt=''>
+                        Каталог товаров
+                    </a>
                 </div>
                 <!-- Slider main container-->
                 <div class="swiper-container swiper-products suggestions-swiper">
@@ -151,67 +158,80 @@
                 <div class="swiper-slide">
                     <div class='previously-item'>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png'
+                                 alt=''>
                         </div>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png' alt=''>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class='previously-item'>
-                        <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png'
+                                 alt=''>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png'
+                                 alt=''>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png' alt=''>
-                        </div>
-                        <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png' alt=''>
-                        </div>
-                    </div>
-                </div><div class="swiper-slide">
-                    <div class='previously-item'>
-                        <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png' alt=''>
-                        </div>
-                        <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png'
+                                 alt=''>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png'
+                                 alt=''>
+                        </div>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png'
+                                 alt=''>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png'
+                                 alt=''>
+                        </div>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png'
+                                 alt=''>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png'
+                                 alt=''>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class='previously-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png'
+                                 alt=''>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class='previously-item'>
+                        <div class='item-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png'
+                                 alt=''>
                         </div>
                         <div class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png'
+                                 alt=''>
                         </div>
                     </div>
                 </div>

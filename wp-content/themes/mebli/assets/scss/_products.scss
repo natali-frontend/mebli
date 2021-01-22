@@ -6,21 +6,21 @@
     max-width: 1610px;
   }
   &-inner {
-    display: flex;
+    display:         flex;
     justify-content: space-between;
     .review-slider {
       position: relative;
-      padding: 0 95px;
+      padding:  0 95px;
       .swiper-container {
         width: 38.55vw;
       }
       .swiper-review {
-        height: 20%;
+        height:     20%;
         box-sizing: border-box;
-        padding: 10px 0;
+        padding:    10px 0;
         .swiper-wrapper {
           .swiper-slide {
-            width: 25%;
+            width:   25%;
             opacity: 1;
           }
         }
@@ -28,15 +28,14 @@
     }
     .review-description {
       padding-top: 5%;
-      width: 29vw;
+      width:       29vw;
       .description-text {
-        padding-left: 10px;
+        padding-left:  10px;
         margin-bottom: 30px;
         h2, h3 {
           margin-bottom: 25px;
         }
         h3 {
-          font-size: 24px;
           font-weight: 600;
         }
       }
@@ -45,16 +44,16 @@
       }
     }
     .review-buttons {
-      max-width: 405px;
-      display: flex;
+      max-width:       405px;
+      display:         flex;
       justify-content: space-between;
-      flex-wrap: wrap;
-      margin-bottom: 40px;
+      flex-wrap:       wrap;
+      margin-bottom:   40px;
       a {
-        color: $baseColor;
-        border: 1px solid $baseColor;
+        color:         $baseColor;
+        border:        1px solid $baseColor;
         border-radius: 8px;
-        padding: 10px 30px;
+        padding:       10px 30px;
         margin-bottom: 10px;
         &:last-child {
           margin-bottom: 0;
@@ -63,92 +62,96 @@
     }
   }
 }
+
 .feature {
-  background: $primaryColor;
-  padding: 4.7% 0;
+  background:    $primaryColor;
+  padding:       4.7% 0;
   margin-bottom: 5.21%;
-  box-shadow: 0 5px 15px rgba(115, 190, 196, 0.30);
+  box-shadow:    0 5px 15px rgba(115, 190, 196, 0.30);
   h2 {
-    text-align: center;
+    text-align:    center;
     margin-bottom: 3.7%;
   }
   p:first-child {
-    font-weight: bold;
+    font-weight:  bold;
     margin-right: 6%;
   }
   .description-item {
-    display: flex;
+    display:       flex;
     margin-bottom: 30px;
     &:last-child {
       margin-bottom: 0;
     }
   }
 }
+
 .title {
-  width: 66.8vw;
-  background: $primaryColor;
+  width:         66.8vw;
+  background:    $primaryColor;
   border-radius: 0 60px 60px 0;
-  text-align: right;
-  padding: 20px 35px 20px 0;
+  text-align:    right;
+  padding:       20px 35px 20px 0;
+  margin-bottom: 5.7%;
 }
+
 .fabrics {
   margin-bottom: 5.21%;
   h2 {
-    width: 57.5vw;
+    width:   57.5vw;
     padding: 20px 75px 20px 0;
   }
   .container {
-    max-width: 1850px;
-    margin: 0 0 0 auto;
+    max-width:     1850px;
+    margin:        0 0 0 auto;
     padding-right: 0;
   }
   &-inner {
     display: flex;
   }
   &-image {
-    width: 53%;
+    width:        53%;
     margin-right: 3.9%;
   }
   .swiper-fabrics {
     border-radius: 40px 0 0 40px;
-    box-shadow: 0 5px 15px rgba(115, 190, 196, 0.30);
-    background: $primaryColor;
-    padding: 33px 0 33px 40px;
-    width: 46.51vw;
+    box-shadow:    0 5px 15px rgba(115, 190, 196, 0.30);
+    background:    $primaryColor;
+    padding:       33px 0 33px 40px;
+    width:         46.51vw;
     .swiper-wrapper {
-      background: $whiteColor;
+      background:    $whiteColor;
       border-radius: 40px 0 0 40px;
     }
   }
   &-material {
-    position: relative;
-    display: flex;
+    position:   relative;
+    display:    flex;
     background: $whiteColor;
     .material-list {
-      display: flex;
-      flex-wrap: wrap;
-      padding: 40px 140px 40px 90px;
+      display:       flex;
+      flex-wrap:     wrap;
+      padding:       40px 140px 40px 90px;
       border-radius: 40px 0 0 40px;
 
       .material-item {
-        width: 112px;
+        width:  112px;
         height: 112px;
         margin: 15px;
       }
     }
     .material-colors {
-      position: absolute;
-      top: 0;
-      right: 0;
-      z-index: 100;
-      box-shadow: 0 5px 15px rgba(115, 190, 196, 0.30);
+      position:      absolute;
+      top:           0;
+      right:         0;
+      z-index:       100;
+      box-shadow:    0 5px 15px rgba(115, 190, 196, 0.30);
       border-radius: 40px 0 0 40px;
-      padding: 25px 115px 25px 40px;
-      margin: 30px 0;
+      padding:       25px 115px 25px 40px;
+      margin:        30px 0;
       .colors-list {
         .colors-item {
-          width: 42px;
-          height: 42px;
+          width:         42px;
+          height:        42px;
           border-radius: 50px;
           margin-bottom: 60px;
           &:last-child {
@@ -177,6 +180,7 @@
     }
   }
 }
+
 .transformation {
   margin-bottom: 5.7%;
   .container {
@@ -184,9 +188,14 @@
   }
   &-inner {
     .transformation-list {
-      display: flex;
+      display:         flex;
       justify-content: space-between;
-      align-items: center;
+      align-items:     stretch;
+      &:last-child {
+        .transformation-item {
+          margin-right: 0;
+        }
+      }
     }
     .transformation-item {
       display:         flex;
@@ -200,14 +209,10 @@
           width:      100%;
           height:     100%;
           background: rgba(0, 0, 0, 0.30);
-          position: absolute;
-          top: 0;
-          left: 0;
+          position:   absolute;
+          top:        0;
+          left:       0;
         }
-      }
-      .transformation-image {
-        width: 59%;
-        margin: 0 0 80px 160px;
       }
     }
     .transformation-image {
@@ -221,13 +226,13 @@
   .feature {
     padding: 7.2% 0;
     .description-item {
-      display: flex;
+      display:       flex;
       margin-bottom: 20px;
     }
   }
   .products-previously {
     h2 {
-      width: 71.9vw;
+      width:   71.9vw;
       padding: 7px 35px 7px 0;
     }
   }
@@ -235,14 +240,14 @@
 
 @media screen and (max-width: 650px) {
   .feature {
-    padding: 50px 0;
+    padding:       50px 0;
     margin-bottom: 50px;
     h2 {
       margin-bottom: 45px;
     }
     .description-item {
       flex-direction: column;
-      margin-bottom: 0;
+      margin-bottom:  0;
       p {
         margin-bottom: 15px;
       }
@@ -255,7 +260,7 @@
   }
   .products-previously {
     h2 {
-      width: 94.1vw;
+      width:   94.1vw;
       padding: 9px 20px 9px 0;
     }
   }
