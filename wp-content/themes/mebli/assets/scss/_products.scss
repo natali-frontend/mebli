@@ -189,6 +189,9 @@
       align-items: center;
     }
     .transformation-item {
+      display:         flex;
+      flex-direction:  column;
+      justify-content: flex-end;
       .item-image {
         position: relative;
         &:after {
