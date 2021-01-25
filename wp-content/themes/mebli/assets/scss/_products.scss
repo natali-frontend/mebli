@@ -116,27 +116,31 @@
     border-radius: 40px 0 0 40px;
     box-shadow:    0 5px 15px rgba(115, 190, 196, 0.30);
     background:    $primaryColor;
-    padding:       33px 0 33px 40px;
+    padding:       1.7% 0 1.7% 2.21%;
     width:         46.51vw;
     .swiper-wrapper {
       background:    $whiteColor;
       border-radius: 40px 0 0 40px;
+      .swiper-button-next {
+        display: none;
+      }
     }
   }
   &-material {
-    position:   relative;
-    display:    flex;
-    background: $whiteColor;
+    border-radius: 40px 0 0 40px;
+    position:      relative;
+    display:       flex;
+    background:    $whiteColor;
     .material-list {
       display:       flex;
       flex-wrap:     wrap;
-      padding:       40px 140px 40px 90px;
+      padding:       5.1% 17% 5.1% 11.3%;
       border-radius: 40px 0 0 40px;
 
       .material-item {
-        width:  112px;
-        height: 112px;
-        margin: 15px;
+        width:  5.84vw;
+        height: 5.84vw;
+        margin: 2.7%;
       }
     }
     .material-colors {
@@ -145,15 +149,17 @@
       right:         0;
       z-index:       100;
       box-shadow:    0 5px 15px rgba(115, 190, 196, 0.30);
+      padding:       3.2% 14.4% 3.2% 5.1%;
+      margin:        3% 0;
+      background:    $whiteColor;
       border-radius: 40px 0 0 40px;
-      padding:       25px 115px 25px 40px;
-      margin:        30px 0;
+
       .colors-list {
         .colors-item {
-          width:         42px;
-          height:        42px;
+          width:         2.2vw;
+          height:        2.2vw;
           border-radius: 50px;
-          margin-bottom: 60px;
+          margin-bottom: 3.13vw;
           &:last-child {
             margin-bottom: 0;
           }
@@ -236,6 +242,33 @@
       padding: 7px 35px 7px 0;
     }
   }
+  .fabrics {
+    .swiper-fabrics {
+      border-radius: 20px 0 0 20px;
+      .swiper-wrapper {
+        border-radius: 20px 0 0 20px;
+        .swiper-button-prev, .swiper-button-next {
+          &:after {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    &-material {
+      border-radius: 20px 0 0 20px;
+      .material-list {
+        border-radius: 20px 0 0 20px;
+        padding:       6.2% 21.8% 6.2% 12.6%;
+        .material-item {
+          width:  6.65vw;
+          height: 6.65vw;
+        }
+      }
+      .material-colors {
+        border-radius: 20px 0 0 20px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -279,6 +312,35 @@
       .review-slider {
         .swiper-container {
         }
+      }
+    }
+  }
+  .fabrics {
+    .container {
+      padding: 0 15px;
+    }
+    &-inner {
+      flex-direction: column;
+      align-items:    center;
+
+    }
+    .swiper-fabrics {
+      border-radius: 20px;
+      padding:       0;
+      width:         100%;
+      .swiper-wrapper {
+        border-radius: 20px;
+        .swiper-button-next {
+          display: block;
+        }
+      }
+    }
+    &-material {
+      .material-list {
+        padding: 25px 50px;
+      }
+      .material-colors {
+        display: none;
       }
     }
   }

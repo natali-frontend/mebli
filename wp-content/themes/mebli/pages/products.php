@@ -102,6 +102,7 @@
                     <div class="swiper-wrapper">
                         <!-- If we need navigation buttons -->
                         <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
                         <!-- Slides -->
                         <div class="swiper-slide">
                             <div class='fabrics-material'>
