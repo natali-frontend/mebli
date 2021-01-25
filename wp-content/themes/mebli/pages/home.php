@@ -248,36 +248,36 @@
                     <!-- Slides -->
                     <div class="swiper-slide">
                         <div class='viewed-products-item'>
-                            <div class='item-image'>
+                            <a href='/mebli/about-store' class='item-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-6.png'
                                      alt=''>
-                            </div>
+                            </a>
                             <div class='item-description'>
-                                <h2>Lorem ipsum</h2>
+                                <a href='/mebli/about-store'>Lorem ipsum</a>
                                 <p>$599.00</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class='viewed-products-item'>
-                            <div class='item-image'>
+                            <a href='/mebli/about-store' class='item-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png'
                                      alt=''>
-                            </div>
+                            </a>
                             <div class='item-description'>
-                                <h2>Lorem ipsum</h2>
+                                <a href='/mebli/about-store'>Lorem ipsum</a>
                                 <p>$599.00</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class='viewed-products-item'>
-                            <div class='item-image'>
+                            <a href='/mebli/about-store' class='item-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-2.png'
                                      alt=''>
                             </div>
                             <div class='item-description'>
-                                <h2>Lorem ipsum</h2>
+                                <a href='/mebli/about-store'>Lorem ipsum</a>
                                 <p>$599.00</p>
                             </div>
                         </div>
