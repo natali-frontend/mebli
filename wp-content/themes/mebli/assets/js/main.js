@@ -152,6 +152,20 @@ document.addEventListener('DOMContentLoaded', function () {
             swiper: SwiperReview
         }
     });
+
+//    Loading on Catalog page
+    const mainImage = document.getElementsByClassName('main-image');
+    const loading = document.getElementsByClassName('loading');
+
+    setTimeout(()=> {
+        for (let i=0; i < mainImage.length; i++) {
+            mainImage[i].style.opacity = '1';
+        }
+        for (let i=0; i < loading.length; i++) {
+            loading[i].style.opacity = '0';
+        }
+    }, 3000);
+
 });
 
 

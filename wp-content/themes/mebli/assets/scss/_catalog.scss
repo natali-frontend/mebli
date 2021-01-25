@@ -26,8 +26,9 @@
         }
         .item-image {
           position: relative;
-          img {
+         .main-image  {
             opacity: 0;
+           transition: .3s linear;
           }
           .loading {
             position:  absolute;
@@ -35,9 +36,7 @@
             left:      50%;
             width:     66px;
             transform: translate(-50%, -50%);
-            img {
-              opacity: 1;
-            }
+            transition: .3s linear;
           }
         }
         .item-description {
