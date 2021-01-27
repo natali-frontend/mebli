@@ -12,14 +12,16 @@
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
                             </div>
                             <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-2.png' alt=''>
                             </div>
                             <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-3.png' alt=''>
                             </div>
                             <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-4.png' alt=''>
                             </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
                         </div>
                     </div>
                     <div class="swiper-container swiper-review">
@@ -30,19 +32,13 @@
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
                             </div>
                             <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-2.png' alt=''>
                             </div>
                             <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-3.png' alt=''>
                             </div>
                             <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
-                            </div>
-                            <div class="swiper-slide">
-                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
+                                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-4.png' alt=''>
                             </div>
                         </div>
                     </div>

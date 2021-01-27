@@ -9,31 +9,74 @@
     display:         flex;
     justify-content: space-between;
     .review-slider {
-      position: relative;
-      padding:  0 95px;
+      position:        relative;
+      padding:         0 6.21%;
+      display:         flex;
+      flex-direction:  column;
+      justify-content: center;
       .swiper-container {
         width: 38.55vw;
-      }
-      .swiper-review {
-        height:     20%;
-        box-sizing: border-box;
-        padding:    10px 0;
-        .swiper-wrapper {
-          .swiper-slide {
-            width:   25%;
-            opacity: 1;
+        &.swiper-review-top {
+          .swiper-wrapper {
+            .swiper-pagination-bullets {
+              height: 15px;
+              bottom: 0;
+              .swiper-pagination-bullet {
+                width:      15px;
+                height:     15px;
+                background: transparent;
+                border:     2px solid $mainColor;
+                display:    none;
+                margin:     0 5px;
+                &-active {
+                  background: $mainColor;
+                }
+              }
+            }
+          }
+        }
+        &.swiper-review {
+          box-sizing: border-box;
+          padding:    10px 0;
+          .swiper-wrapper {
+            height:      7vw;
+            align-items: center;
+            .swiper-slide {
+              width:   25%;
+              opacity: 1;
+              &.swiper-slide-thumb-active {
+                &:after {
+                  opacity: 0;
+                }
+              }
+              img {
+                height:     100%;
+                object-fit: cover;
+              }
+              &:after {
+                content:    "";
+                width:      100%;
+                height:     100%;
+                background: rgba(0, 0, 0, 0.3);
+                position:   absolute;
+                top:        0;
+                left:       0;
+                transition: .3s linear;
+              }
+            }
           }
         }
       }
     }
     .review-description {
       padding-top: 5%;
-      width:       29vw;
+      max-width:   556px;
+      width:       100%;
       .description-text {
         padding-left:  10px;
         margin-bottom: 30px;
         h2, h3 {
-          margin-bottom: 25px;
+          margin-bottom: 15px;
         }
         h3 {
           font-weight: 600;
@@ -48,16 +91,13 @@
       display:         flex;
       justify-content: space-between;
       flex-wrap:       wrap;
-      margin-bottom:   40px;
+      margin-bottom:   30px;
       a {
         color:         $baseColor;
         border:        1px solid $baseColor;
         border-radius: 8px;
         padding:       10px 30px;
         margin-bottom: 10px;
-        &:last-child {
-          margin-bottom: 0;
-        }
       }
     }
   }
@@ -153,7 +193,6 @@
       margin:        3% 0;
       background:    $whiteColor;
       border-radius: 40px 0 0 40px;
-
       .colors-list {
         .colors-item {
           width:         2.2vw;
@@ -228,7 +267,48 @@
   }
 }
 
+@media screen and (max-width: 1400px) {
+  .review {
+    &-inner {
+      .review-slider {
+        .swiper-button-next, .swiper-button-prev {
+          &:after {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 992px) {
+  .review {
+    &-inner {
+      .review-slider {
+        .swiper-button-next, .swiper-button-prev {
+          &:after {
+            font-size: 21px;
+          }
+        }
+      }
+      .review-description {
+        .description-text {
+          margin-bottom: 10px;
+          h2, h3 {
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .review-buttons {
+        justify-content: flex-start;
+        margin-bottom:   10px;
+        a {
+          margin:  0 4px 10px;
+          padding: 8px 15px;
+        }
+      }
+    }
+  }
   .feature {
     padding: 7.2% 0;
     .description-item {
@@ -272,6 +352,60 @@
 }
 
 @media screen and (max-width: 650px) {
+  .review {
+    &-inner {
+      flex-direction: column;
+      align-items:    center;
+      .swiper-button-next, .swiper-button-prev {
+        display: none;
+      }
+      .review-description {
+        padding:       15px;
+        width:         100%;
+        border-radius: 20px;
+        box-shadow:    -5px -5px 10px 0 rgba(115, 190, 196, 0.2);
+        .description-text {
+          margin-bottom: 10px;
+          h2 {
+            font-size: 20px;
+          }
+          h2, h3 {
+            margin-bottom: 5px;
+          }
+        }
+        .btn {
+          margin: 0;
+        }
+      }
+      .review-buttons {
+        max-width:     100%;
+        margin-bottom: 25px;
+        a {
+          border-radius: 5px;
+          font-size:     14px;
+        }
+      }
+      .review-slider {
+        .swiper-container {
+          &.swiper-review {
+            display: none;
+          }
+          &.swiper-review-top {
+            .swiper-container {
+              padding-bottom: 45px;
+              .swiper-wrapper {
+                .swiper-pagination-bullets {
+                  .swiper-pagination-bullet {
+                    display: inline-block;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   .feature {
     padding:       50px 0;
     margin-bottom: 50px;
@@ -297,32 +431,25 @@
       padding: 9px 20px 9px 0;
     }
   }
-  .review {
-    &-inner {
-      flex-direction: column;
-      align-items:    center;
-      .review-description {
-        width: 100%;
-        .description-text {
-          h2, h3 {
-            margin-bottom: 0;
-          }
-        }
-      }
-      .review-slider {
-        .swiper-container {
-        }
-      }
-    }
+  .title {
+    width:   94vw;
+    padding: 9px 6.3% 9px 0;
   }
   .fabrics {
+    h2 {
+      width:   69.7vw;
+      padding: 9px 6.3% 9px 0;
+    }
     .container {
       padding: 0 15px;
     }
     &-inner {
       flex-direction: column;
       align-items:    center;
-
+    }
+    &-image {
+      width:         100%;
+      margin-bottom: 40px;
     }
     .swiper-fabrics {
       border-radius: 20px;

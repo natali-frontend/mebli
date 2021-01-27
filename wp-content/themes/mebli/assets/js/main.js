@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     let SwiperReview = new Swiper('.swiper-review', {
         // Optional parameters
-        spaceBetween: 10,
+        spaceBetween: 20,
         slidesPerView: 4,
         freeMode: true,
         watchSlidesVisibility: true,
@@ -150,18 +150,39 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         thumbs: {
             swiper: SwiperReview
+        },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+    let SwiperShop = new Swiper('.swiper-shop', {
+        // Optional parameters
+        spaceBetween: 30,
+        slidesPerView: 3,
+        freeMode: true,
+        watchSlidesVisibility: true,
+        watchSlidesProgress: true,
+    });
+    let SwiperShopTop = new Swiper('.swiper-shop-top', {
+        // Optional parameters
+        slidesPerView: 1,
+        spaceBetween: 10,
+        thumbs: {
+            swiper: SwiperShop
         }
     });
 
-//    Loading on Catalog page
+    //    Loading on Catalog page
     const mainImage = document.getElementsByClassName('main-image');
     const loading = document.getElementsByClassName('loading');
 
-    setTimeout(()=> {
-        for (let i=0; i < mainImage.length; i++) {
+    setTimeout(() => {
+        for (let i = 0; i < mainImage.length; i++) {
             mainImage[i].style.opacity = '1';
         }
-        for (let i=0; i < loading.length; i++) {
+        for (let i = 0; i < loading.length; i++) {
             loading[i].style.opacity = '0';
         }
     }, 3000);
