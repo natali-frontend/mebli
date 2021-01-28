@@ -31,12 +31,12 @@
             opacity: 0;
            transition: .3s linear;
           }
-           .loading {
-            position:  absolute;
-            top:       50%;
-            left:      50%;
-            width:     66px;
-            transform: translate(-50%, -50%);
+          .loading {
+            position:   absolute;
+            top:        50%;
+            left:       50%;
+            width:      10.6%;
+            transform:  translate(-50%, -50%);
             transition: .3s linear;
           }
         }
