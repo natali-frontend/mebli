@@ -26,10 +26,10 @@
         }
         .item-image {
           position: relative;
-          display: block;
-          .main-image  {
-            opacity: 0;
-           transition: .3s linear;
+          display:  block;
+          .main-image {
+            opacity:    0;
+            transition: .3s linear;
           }
           .loading {
             position:   absolute;
