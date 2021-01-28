@@ -98,6 +98,9 @@ form {
       line-height:   1.2;
       padding:       0 0 10px;
       margin-bottom: 5px;
+      &:focus {
+        border-bottom: 3px solid $baseColor;
+      }
     }
     span {
       font-size:   18px;
