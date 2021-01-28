@@ -91,13 +91,14 @@
     }
     &-swiper {
       &.swiper-container {
-        padding-left: 65px;
-        margin:       0;
-        position:     absolute;
-        width:        63vw;
-        right:        0;
-        top:          50%;
-        transform:    translate(16%, -50%);
+        overflow:  visible;
+        padding:   0 0 5% 65px;
+        margin:    0;
+        position:  absolute;
+        width:     63vw;
+        right:     0;
+        top:       50%;
+        transform: translate(16%, -50%);
         .swiper-slide {
           margin-right: 0;
           width:        30%;
