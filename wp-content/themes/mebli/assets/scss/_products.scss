@@ -385,15 +385,15 @@
             display: none;
           }
           &.swiper-review-top {
-            .swiper-container {
-              padding-bottom: 45px;
-              .swiper-wrapper {
-                .swiper-pagination-bullets {
-                  .swiper-pagination-bullet {
-                    display: inline-block;
-                  }
-                }
+            margin-bottom: 15px;
+            width:         100%;
+            .swiper-pagination-bullets {
+              .swiper-pagination-bullet {
+                display: inline-block;
               }
+            }
+            .swiper-wrapper {
+              padding-bottom: 25px;
             }
           }
         }
