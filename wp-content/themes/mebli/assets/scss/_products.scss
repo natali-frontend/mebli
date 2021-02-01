@@ -77,7 +77,7 @@
         color:         $baseColor;
         border:        1px solid $baseColor;
         border-radius: 8px;
-        padding:       10px 30px;
+        padding:       8px 20px;
         margin-bottom: 10px;
         font-size:     18px;
       }
@@ -294,8 +294,9 @@
         justify-content: flex-start;
         margin-bottom:   10px;
         a {
-          margin:  0 4px 10px;
-          padding: 8px 15px;
+          margin:    0 5px 10px;
+          padding:   8px 15px;
+          font-size: 16px;
         }
       }
     }
