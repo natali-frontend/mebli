@@ -256,6 +256,13 @@
             display: none;
           }
         }
+        .viewed-products-item {
+          padding:       20px 5px;
+          border-radius: 20px;
+          .item-image {
+            margin-bottom: 0;
+          }
+        }
         .item-description {
           text-align: center;
         }
