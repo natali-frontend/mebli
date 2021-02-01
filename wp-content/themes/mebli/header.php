@@ -57,6 +57,52 @@
                     <span></span>
                 </div>
             </div>
+            <?php if (is_page_template('pages/catalog.php')) { ?>
+                <div class='header-drop-down'>
+                    <ul class='drop-down-list'>
+                        <li class='list-item'>
+                            <span class="select-selected">Lorem ipsum 1</span>
+                            <ul class='submenu'>
+                                <li class='submenu-item'>Lorem ipsum 2</li>
+                                <li class='submenu-item'>Lorem ipsum 3</li>
+                                <li class='submenu-item'>Lorem ipsum 4</li>
+                            </ul>
+                        </li>
+                        <li class='list-item'>
+                            <span class="select-selected">Lorem ipsum</span>
+                            <ul class='submenu'>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                            </ul>
+                        </li>
+                        <li class='list-item'>
+                            <span class="select-selected">Lorem ipsum</span>
+                            <ul class='submenu'>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                            </ul>
+                        </li>
+                        <li class='list-item'>
+                            <span class="select-selected">Lorem ipsum</span>
+                            <ul class='submenu'>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                            </ul>
+                        </li>
+                        <li class='list-item'>
+                            <span class="select-selected">Lorem ipsum</span>
+                            <ul class='submenu'>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                                <li class='submenu-item'>Lorem ipsum</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            <?php } ?>
         </div>
     </div>
 </header>
@@ -65,4 +111,4 @@
         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/call.svg" alt="">
     </a>
 </div>
-<main class='home <?php if (!is_page_template('pages/home.php')) echo "pt-header"; ?>''>
+<main class='home <?php if (!is_page_template('pages/home.php')) echo "pt-header"; ?>'>

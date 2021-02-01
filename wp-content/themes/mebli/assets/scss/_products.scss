@@ -173,7 +173,7 @@
     .material-list {
       display:       flex;
       flex-wrap:     wrap;
-      padding:       5.1% 17% 5.1% 11.3%;
+      padding:      5.1% 11.3%;
       border-radius: 40px 0 0 40px;
 
       .material-item {
@@ -189,46 +189,6 @@
           color:     $whiteColor;
           font-size: 30px;
         }
-      }
-    }
-    .material-colors {
-      position:      absolute;
-      top:           0;
-      right:         0;
-      z-index:       100;
-      box-shadow:    0 5px 15px rgba(115, 190, 196, 0.30);
-      padding:       3.2% 14.4% 3.2% 5.1%;
-      margin:        3% 0;
-      background:    $whiteColor;
-      border-radius: 40px 0 0 40px;
-      .colors-list {
-        .colors-item {
-          width:         2.2vw;
-          height:        2.2vw;
-          border-radius: 50px;
-          margin-bottom: 3.13vw;
-          &:last-child {
-            margin-bottom: 0;
-          }
-        }
-      }
-      .pink {
-        background: #FBF1E6;
-      }
-      .brown {
-        background: #756961;
-      }
-      .blue {
-        background: #5F7FA6;
-      }
-      .green {
-        background: #416F5C;
-      }
-      .purple {
-        background: #B1707F;
-      }
-      .grey {
-        background: #908B8F;
       }
     }
   }
@@ -354,7 +314,7 @@
       border-radius: 20px 0 0 20px;
       .material-list {
         border-radius: 20px 0 0 20px;
-        padding:       6.2% 21.8% 6.2% 12.6%;
+        padding:       6.2% 12.6%;
         .material-item {
           width:  6.65vw;
           height: 6.65vw;
@@ -362,9 +322,6 @@
             font-size: 20px;
           }
         }
-      }
-      .material-colors {
-        border-radius: 20px 0 0 20px;
       }
     }
   }
@@ -490,9 +447,6 @@
             font-size: 16px;
           }
         }
-      }
-      .material-colors {
-        display: none;
       }
     }
   }
