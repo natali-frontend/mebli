@@ -11,21 +11,20 @@
     position: static;
   }
   .description-inner {
-
     .description-content {
-      padding: 18.61% 0 21.91%;
-      width:   56%;
+      padding:   18.61% 0 21.91%;
+      width:     56%;
       max-width: 550px;
       h2 {
         margin-bottom: 25px;
       }
     }
     .description-image {
-      position: absolute;
-      right: 0;
-      bottom: 0;
+      position:   absolute;
+      right:      0;
+      bottom:     0;
       width:      42.35vw;
-      max-width: 813px;
+      max-width:  813px;
       background: transparent;
     }
   }
@@ -114,14 +113,14 @@
     .description-inner {
       .description-content {
         padding: 14% 0 12%;
-        width: 48%;
+        width:   48%;
         h2 {
-          font-size: 24px;
+          font-size:     24px;
           margin-bottom: 15px;
         }
       }
       .description-image {
-        width: 100%;
+        width:     100%;
         max-width: 356px;
       }
     }
@@ -177,16 +176,16 @@
       flex-direction: column;
       .description-content {
         padding: 45px 0 10px;
-        width: 100%;
+        width:   100%;
         h2 {
-          font-size: 16px;
+          font-size:     16px;
           margin-bottom: 10px;
         }
       }
       .description-image {
-        position: relative;
-        right: -20px;
-        margin: 0 0 -19% 0;
+        position:  relative;
+        right:     -20px;
+        margin:    0 0 -19% 0;
         max-width: none;
       }
     }
