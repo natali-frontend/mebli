@@ -57,7 +57,7 @@
                     <span></span>
                 </div>
             </div>
-            <?php if (is_page_template('pages/products.php')) { ?>
+            <?php if (is_page_template('pages/catalog.php')) { ?>
                 <div class='header-drop-down'>
                     <ul class='drop-down-list'>
                         <li class='list-item'>

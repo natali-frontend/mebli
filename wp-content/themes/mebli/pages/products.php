@@ -180,16 +180,6 @@
                                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-16.jpg'
                                          alt=''></div>
                             </div>
-                            <div class='material-colors'>
-                                <div class='colors-list'>
-                                    <div class='colors-item pink'></div>
-                                    <div class='colors-item brown'></div>
-                                    <div class='colors-item blue'></div>
-                                    <div class='colors-item green'></div>
-                                    <div class='colors-item purple'></div>
-                                    <div class='colors-item grey'></div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
