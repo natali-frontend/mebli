@@ -1,5 +1,11 @@
 @import "variables";
 
+@media (any-hover: hover) {
+  .shop-inner .shop-slider .swiper-shop .swiper-slide:hover {
+    opacity: .7;
+  }
+}
+
 .shop {
   position:      relative;
   margin-bottom: 5%;
@@ -34,14 +40,7 @@
     align-items:     center;
     padding-top:     170px;
     .shop-slider {
-
-      //position: absolute;
-      //right: 0;
-      //top: 0;
       width: 45.65vw;
-      .swiper-shop-top {
-
-      }
       .swiper-shop {
         height:     20%;
         box-sizing: border-box;
@@ -54,7 +53,9 @@
             display:     flex;
             align-items: center;
             width:       25%;
-            opacity:     1;
+            &:active {
+              opacity: .7;
+            }
           }
         }
       }

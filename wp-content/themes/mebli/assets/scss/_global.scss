@@ -41,6 +41,9 @@ a {
   font-size:       24px;
   line-height:     1.20;
   color:           $whiteColor;
+  &:active {
+    opacity: .7;
+  }
 }
 
 img {
@@ -168,6 +171,9 @@ form {
 }
 
 .swiper-container {
+  .swiper-slide {
+    cursor: pointer;
+  }
   .swiper-pagination-bullets {
     height:          15px;
     bottom:          0;
@@ -184,6 +190,12 @@ form {
         background: $mainColor;
       }
     }
+  }
+}
+
+section .swiper-button-prev, section .swiper-button-next {
+  &:after {
+    color: #27B3B6;
   }
 }
 
@@ -204,7 +216,6 @@ form {
   section .swiper-button-prev, section .swiper-button-next {
     &:after {
       font-size: 24px;
-      color:     #27B3B6;
     }
   }
   .btn {
@@ -261,7 +272,6 @@ form {
   section .swiper-button-prev, section .swiper-button-next {
     &:after {
       font-size: 17px;
-      color:     #27B3B6;
     }
   }
   .btn {
