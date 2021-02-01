@@ -10,22 +10,52 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
 
-    // const dropDown = document.getElementsByClassName("list-item");
-    // for (let i = 0; i < dropDown.length; i++) {
-    //     dropDown[i].addEventListener("click", function () {
-    //         this.classList.toggle("show");
-    //     });
-    // }
+    // Select
+    const currentSelected = document.getElementsByClassName('select-selected');
+    const selectMenu = document.getElementsByClassName('list-item');
+    const selectItem = document.getElementsByClassName('submenu-item');
 
-    // const submenu = document.getElementsByClassName("submenu-item");
-    // for (let i = 0; i < submenu.length; i++) {
-    //     submenu[i].addEventListener("click", function () {
-    //         for (let i = 0; i < submenu.length; i++) {
-    //             submenu[i].classList.remove("active");
-    //         }
-    //         this.classList.add("active");
-    //     });
-    // }
+    function hideAllSelects() {
+        for (let i = 0; i < selectMenu.length; i++) {
+            selectMenu[i].classList.remove('show')
+        }
+    }
+
+    for (let i = 0; i < currentSelected.length; i++) {
+        currentSelected[i].addEventListener('click', function () {
+            hideAllSelects();
+            selectMenu[i].classList.toggle('show');
+        });
+    }
+    for (let i = 0; i < selectItem.length; i++) {
+        selectItem[i].addEventListener('click', function () {
+            hideAllSelects();
+            this.parentElement.parentElement.querySelector('.select-selected').innerHTML = this.textContent;
+        });
+    }
+    window.addEventListener('click', function (e) {
+        const select0 = document.getElementsByClassName('select-selected')[0];
+        const selectMenu0 = document.getElementsByClassName('submenu')[0];
+        const select1 = document.getElementsByClassName('select-selected')[1];
+        const selectMenu1 = document.getElementsByClassName('submenu')[1];
+        const select2 = document.getElementsByClassName('select-selected')[2];
+        const selectMenu2 = document.getElementsByClassName('submenu')[2];
+        const select3 = document.getElementsByClassName('select-selected')[3];
+        const selectMenu3 = document.getElementsByClassName('submenu')[3];
+        const select4 = document.getElementsByClassName('select-selected')[4];
+        const selectMenu4 = document.getElementsByClassName('submenu')[4];
+        if (select0.contains(e.target) && !selectMenu0.contains(e.target) ||
+            select1.contains(e.target) && !selectMenu1.contains(e.target) ||
+            select2.contains(e.target) && !selectMenu2.contains(e.target) ||
+            select3.contains(e.target) && !selectMenu3.contains(e.target) ||
+            select4.contains(e.target) && !selectMenu4.contains(e.target)) {
+            // Clicked in box
+        } else {
+            // Clicked out box
+            hideAllSelects();
+        }
+    });
+
 
     // Swiper
     let mySwiper = new Swiper('.swiper-advantages', {
