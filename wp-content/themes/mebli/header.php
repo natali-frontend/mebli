@@ -33,6 +33,8 @@
                         <li class='menu-item'><a href='/mebli/about-store'>Про магазин</a></li>
                         <li class='menu-item'><a href='/mebli/gallery'>Галерея</a></li>
                         <li class='menu-item'><a href='/mebli/catalog'>Каталог</a></li>
+                        <li class='menu-item'><a href='/mebli/products'>Товар</a></li>
+                        <li class='menu-item'><a href='/mebli/ordering'>Оформлення</a></li>
                     </ul>
                 </div>
                 <ul class='tel'>
