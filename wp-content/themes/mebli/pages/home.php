@@ -145,6 +145,8 @@
                             </div>
                         </div>
                     </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>

@@ -118,17 +118,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     let mySwiperSuggestions = new Swiper('.suggestions-swiper', {
         // Optional parameters
-        slidesPerView: 2,
+        slidesPerView: 1,
         spaceBetween: 15,
         centeredSlides: true,
         breakpoints: {
             650: {
-                slidesPerView: 1,
+                slidesPerView: 2,
             },
             993: {
                 slidesPerView: "auto",
                 spaceBetween: 30,
             }
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
         },
     });
     let SwiperReview = new Swiper('.swiper-review', {

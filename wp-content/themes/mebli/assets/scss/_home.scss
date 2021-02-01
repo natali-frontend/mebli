@@ -246,6 +246,15 @@
           margin:           0 0 45px;
           padding:          40px 0 40px 20%;
           background-color: $primaryColor;
+          .swiper-pagination-bullets {
+            bottom: 15px;
+            .swiper-pagination-bullet {
+              display: inline-block;
+            }
+          }
+          .swiper-button-prev, .swiper-button-next {
+            display: none;
+          }
         }
         .item-description {
           text-align: center;
