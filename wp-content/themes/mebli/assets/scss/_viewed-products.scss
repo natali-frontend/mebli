@@ -1,17 +1,11 @@
 @import "variables";
 
 @media (any-hover: hover) {
-  .viewed-products {
-    &-item {
-      img:hover {
-        opacity: 0.7;
-      }
-      .item-description {
-        a:hover {
-          color: $baseColor;
-        }
-      }
-    }
+  .viewed-products-item .item-image:hover {
+    opacity: 0.7;
+  }
+  .viewed-products-item .item-description a:hover {
+    color: $baseColor;
   }
 }
 

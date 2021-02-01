@@ -1,5 +1,16 @@
 @import "variables";
 
+@media (any-hover: hover) {
+  .review-inner .review-slider .swiper-container.swiper-review .swiper-wrapper .swiper-slide:hover {
+    &:after {
+      background: rgba(0, 0, 0, 0.2);
+    }
+  }
+  .transformation-inner .transformation-item .item-image:hover {
+    opacity: .7;
+  }
+}
+
 .review {
   margin-bottom: 7.3%;
   .container {

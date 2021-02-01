@@ -1,5 +1,11 @@
 @import "variables";
 
+@media (any-hover: hover) {
+  .shop-inner .shop-slider .swiper-shop .swiper-slide:hover {
+    opacity: .7;
+  }
+}
+
 .shop {
   position:      relative;
   margin-bottom: 5%;
