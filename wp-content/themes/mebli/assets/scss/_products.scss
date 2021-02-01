@@ -25,6 +25,12 @@
             .swiper-slide {
               width:   25%;
               opacity: 1;
+              cursor:  pointer;
+              &:active {
+                &:after {
+                  background: rgba(0, 0, 0, 0.2);
+                }
+              }
               &.swiper-slide-thumb-active {
                 &:after {
                   opacity: 0;
