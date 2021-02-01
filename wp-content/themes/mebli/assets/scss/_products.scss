@@ -257,6 +257,10 @@
       .item-image {
         position: relative;
         margin:   0 20px 20px 0;
+        cursor:   pointer;
+        &:active {
+          opacity: .7;
+        }
         &:after {
           content:    "";
           width:      100%;

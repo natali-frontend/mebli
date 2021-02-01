@@ -111,6 +111,11 @@
       text-align:    center;
       padding:       15.5% 5px;
       background:    $whiteColor;
+      .item-image {
+        &:active {
+          opacity: .7;
+        }
+      }
     }
   }
 }

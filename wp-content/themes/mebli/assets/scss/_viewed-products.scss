@@ -29,6 +29,10 @@
   &-item {
     .item-image {
       margin-bottom: 30px;
+      display:       inline-block;
+      &:active {
+        opacity: .7;
+      }
     }
     .item-description {
       padding-left: 10px;
