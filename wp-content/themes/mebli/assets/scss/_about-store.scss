@@ -49,12 +49,13 @@
         padding:    10px 0;
         overflow:   visible;
         position:   relative;
-        right:      -20%;
         .swiper-wrapper {
           .swiper-slide {
             display:     flex;
             align-items: center;
-            width:       25%;
+            background:  $whiteColor;
+            width:       420px;
+            padding:     20px;
             &:active {
               opacity: .7;
             }
