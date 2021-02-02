@@ -206,20 +206,23 @@
       display:         flex;
       justify-content: space-between;
       align-items:     stretch;
-      &:last-child {
-        .transformation-item {
-          margin-right: 0;
-        }
-      }
     }
     .transformation-item {
       display:         flex;
       flex-direction:  column;
       justify-content: flex-end;
+      &:last-child {
+        .item-image {
+          margin-right: 0;
+        }
+      }
       .item-image {
-        position: relative;
-        margin:   0 20px 20px 0;
-        cursor:   pointer;
+        width:     13.66vw;
+        height:    13.66vw;
+        position:  relative;
+        margin:    0 1vw 1vw 0;
+        cursor:    pointer;
+        max-width: 262px;
         &:active {
           opacity: .7;
         }
@@ -235,7 +238,7 @@
       }
     }
     .transformation-image {
-      width:        62.3%;
+      width:        59.54vw;
       margin-right: 8%;
     }
   }
