@@ -150,6 +150,8 @@
   &-image {
     width:        53%;
     margin-right: 3.9%;
+    display:      flex;
+    align-items:  center;
   }
   .swiper-fabrics {
     border-radius: 40px 0 0 40px;
@@ -173,7 +175,7 @@
     .material-list {
       display:       flex;
       flex-wrap:     wrap;
-      padding:      5.1% 11.3%;
+      padding:       5.1% 11.3%;
       border-radius: 40px 0 0 40px;
 
       .material-item {

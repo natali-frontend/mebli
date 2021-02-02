@@ -22,19 +22,19 @@
     <div class='container'>
         <div class='header-content'>
             <div class='header-top'>
-                <a href='#' class='logo'>
+                <a href='/' class='logo'>
                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-white.svg" alt="">
                     <img class="logo-home"
                          src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
                 </a>
                 <div class='menu'>
                     <ul>
-                        <li class='menu-item active'><a href='/mebli'>Главная</a></li>
-                        <li class='menu-item'><a href='/mebli/about-store'>Про магазин</a></li>
-                        <li class='menu-item'><a href='/mebli/gallery'>Галерея</a></li>
-                        <li class='menu-item'><a href='/mebli/catalog'>Каталог</a></li>
-                        <li class='menu-item'><a href='/mebli/products'>Товар</a></li>
-                        <li class='menu-item'><a href='/mebli/ordering'>Оформлення</a></li>
+                        <li class='menu-item active'><a href='/'>Главная</a></li>
+                        <li class='menu-item'><a href='/about-store'>Про магазин</a></li>
+                        <li class='menu-item'><a href='/gallery'>Галерея</a></li>
+                        <li class='menu-item'><a href='/catalog'>Каталог</a></li>
+<!--                        <li class='menu-item'><a href='/products'>Товар</a></li>-->
+<!--                        <li class='menu-item'><a href='/ordering'>Оформлення</a></li>-->
                     </ul>
                 </div>
                 <ul class='tel'>

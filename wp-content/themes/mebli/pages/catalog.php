@@ -4,7 +4,7 @@
         <div class='container'>
             <ul class='inner-list'>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
@@ -16,7 +16,7 @@
                     </div>
                 </li>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
@@ -28,7 +28,7 @@
                     </div>
                 </li>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
@@ -40,7 +40,7 @@
                     </div>
                 </li>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
@@ -52,7 +52,7 @@
                     </div>
                 </li>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
@@ -64,7 +64,7 @@
                     </div>
                 </li>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
@@ -76,7 +76,7 @@
                     </div>
                 </li>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>
@@ -88,7 +88,7 @@
                     </div>
                 </li>
                 <li class='inner-item'>
-                    <a href='/mebli/products' class='item-image'>
+                    <a href='/products' class='item-image'>
                         <div class='loading'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
                         </div>

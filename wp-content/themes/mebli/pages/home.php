@@ -11,7 +11,7 @@
                             Мебель в наличии, и под заказ <br>
                             300+ вариантов тканей
                         </p>
-                        <a href='#' class='btn'>Каталог товаров</a>
+                        <a href='/catalog' class='btn'>Каталог товаров</a>
                     </div>
                 </div>
             </div>
@@ -99,15 +99,15 @@
                             варианты.
                         </p>
                     </div>
-                    <a href='#'>
+                    <a href='/catalog'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/left-arrow.svg' alt=''>
                         Каталог товаров
                     </a>
                 </div>
                 <!-- Slider main container-->
-                <div class="swiper-container swiper-products suggestions-swiper">
+                <div class="swiper-container suggestions-swiper">
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-navigation swiper-button-prev"></div>
                     <!--Additional required wrapper-->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
@@ -310,36 +310,36 @@
                     <!-- Slides -->
                     <div class="swiper-slide">
                         <div class='viewed-products-item'>
-                            <a href='/mebli/about-store' class='item-image'>
+                            <a href='/about-store' class='item-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-6.png'
                                      alt=''>
                             </a>
                             <div class='item-description'>
-                                <a href='/mebli/about-store'>Lorem ipsum</a>
+                                <a href='/about-store'>Lorem ipsum</a>
                                 <p>$599.00</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class='viewed-products-item'>
-                            <a href='/mebli/about-store' class='item-image'>
+                            <a href='/about-store' class='item-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png'
                                      alt=''>
                             </a>
                             <div class='item-description'>
-                                <a href='/mebli/about-store'>Lorem ipsum</a>
+                                <a href='/about-store'>Lorem ipsum</a>
                                 <p>$599.00</p>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class='viewed-products-item'>
-                            <a href='/mebli/about-store' class='item-image'>
+                            <a href='/about-store' class='item-image'>
                                 <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-2.png'
                                      alt=''>
                             </a>
                             <div class='item-description'>
-                                <a href='/mebli/about-store'>Lorem ipsum</a>
+                                <a href='/about-store'>Lorem ipsum</a>
                                 <p>$599.00</p>
                             </div>
                         </div>

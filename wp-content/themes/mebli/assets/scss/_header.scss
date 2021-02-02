@@ -205,6 +205,7 @@
     .header-drop-down {
       padding:    25px 0;
       background: $primaryColor;
+      display: none;
       .drop-down-list {
         display:         flex;
         align-items:     center;
