@@ -158,5 +158,5 @@
             </div>
         </div>
     </div>
-    <a href='#' class='btn'>Посмотреть все фото</a>
+    <a href='/gallery' class='btn'>Посмотреть все фото</a>
 </section>

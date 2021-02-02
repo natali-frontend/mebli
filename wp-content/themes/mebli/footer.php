@@ -17,7 +17,7 @@
     <div class='footer-top'>
         <div class='container'>
             <div class='footer-top-content'>
-                <a href='#' class='logo'>
+                <a href='/' class='logo'>
                     <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-white.svg" alt="">
                 </a>
                 <ul class='tel'>

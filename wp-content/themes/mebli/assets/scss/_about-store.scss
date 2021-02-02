@@ -274,9 +274,14 @@
       .swiper-shop {
         display: none;
       }
+      .shop-slider {
+        width:  80%;
+        margin: 0 auto;
+      }
       .shop-description {
-        width:      100%;
-        text-align: center;
+        width:         100%;
+        text-align:    center;
+        margin-bottom: 30px;
         h1 {
           font-size: 25px;
         }
@@ -287,6 +292,7 @@
     }
   }
   .about-store-production {
+    padding-top: 20px;
     .production-inner {
       flex-direction:  column;
       justify-content: center;

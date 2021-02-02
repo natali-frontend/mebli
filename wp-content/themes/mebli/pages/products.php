@@ -65,17 +65,17 @@
                     </p>
                 </div>
                 <div class='review-buttons'>
-                    <a href='#'>Характеристика</a>
-                    <a href='#'>Ткани</a>
-                    <a href='#'>Анимация трансформации</a>
+                    <a href='#feature'>Характеристика</a>
+                    <a href='#fabrics'>Ткани</a>
+                    <a href='#transformation'>Анимация трансформации</a>
                 </div>
-                <a href='#' class='btn'>Заказать</a>
+                <a href='/ordering' class='btn'>Заказать</a>
             </div>
         </div>
 
     </div>
 </section>
-<section class='feature'>
+<section id="feature" class='feature'>
     <div class='container'>
         <div class='feature-description'>
             <h2>Характеристика</h2>
@@ -98,7 +98,7 @@
         </div>
     </div>
 </section>
-<section class='fabrics'>
+<section id="fabrics" class='fabrics'>
     <h2 class='title'>Ткани</h2>
     <div class='container'>
         <div class='fabrics-inner'>
@@ -187,7 +187,7 @@
         </div>
     </div>
 </section>
-<section class='transformation'>
+<section id="transformation" class='transformation'>
     <h2 class='title'>Анимация трансформации</h2>
     <div class='container'>
         <div class='transformation-inner'>

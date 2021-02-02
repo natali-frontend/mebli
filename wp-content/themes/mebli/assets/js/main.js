@@ -247,6 +247,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
     ShowZoomPopup();
 
+
+    // Smooth animation
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const id = anchor.getAttribute("href");
+            const block = document.querySelector(id);
+            if (window.innerWidth < 992) {
+                burger.classList.toggle("active");
+                menu.classList.toggle("mobile-menu");
+                header.classList.toggle("header-mobile");
+            }
+            window.scroll({
+                top: block.offsetTop - 100,
+                left: 0,
+                behavior: 'smooth'
+            });
+        });
+    });
+
 });
 
 

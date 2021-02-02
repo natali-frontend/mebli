@@ -142,7 +142,7 @@
             </div>
         </div>
     </div>
-    <a href='#' class='btn'>Наши изделия</a>
+    <a href='/catalog' class='btn'>Наши изделия</a>
 </section>
 <?php include get_template_directory() . '/template-part/previously-product.php'; ?>
 <?php include get_template_directory() . '/template-part/viewed-products.php'; ?>
