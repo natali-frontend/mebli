@@ -9,6 +9,7 @@
 .shop {
   position:      relative;
   margin-bottom: 5%;
+  overflow:      hidden;
   &:after, &:before {
     position: absolute;
   }
