@@ -38,9 +38,10 @@
     display:         flex;
     justify-content: space-between;
     align-items:     center;
-    padding-top:     170px;
+    padding-top:     40px;
     .shop-slider {
-      width: 45.65vw;
+      width:     45.65vw;
+      max-width: 870px;
       .swiper-shop {
         height:     20%;
         box-sizing: border-box;
@@ -196,7 +197,7 @@
 @media screen and (max-width: 992px) {
   .shop {
     &-inner {
-      padding-top: 100px;
+      padding-top: 20px;
       .shop-description {
         h1 {
           font-size:     30px;
