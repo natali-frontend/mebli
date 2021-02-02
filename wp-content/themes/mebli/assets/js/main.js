@@ -199,10 +199,14 @@ document.addEventListener('DOMContentLoaded', function () {
     let SwiperShop = new Swiper('.swiper-shop', {
         // Optional parameters
         spaceBetween: 30,
-        slidesPerView: 3,
         freeMode: true,
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
+        breakpoints: {
+            650: {
+                slidesPerView: 2,
+            },
+        },
     });
     let SwiperShopTop = new Swiper('.swiper-shop-top', {
         // Optional parameters
@@ -243,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function () {
         zoomClose.addEventListener('click', function () {
             zoomPopup.classList.add('d-none');
         });
-    }
+    };
 
     ShowZoomPopup();
 
