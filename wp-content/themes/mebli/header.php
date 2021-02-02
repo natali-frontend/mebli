@@ -33,8 +33,8 @@
                         <li class='menu-item'><a href='/about-store'>Про магазин</a></li>
                         <li class='menu-item'><a href='/gallery'>Галерея</a></li>
                         <li class='menu-item'><a href='/catalog'>Каталог</a></li>
-<!--                        <li class='menu-item'><a href='/products'>Товар</a></li>-->
-<!--                        <li class='menu-item'><a href='/ordering'>Оформлення</a></li>-->
+                        <!--                        <li class='menu-item'><a href='/products'>Товар</a></li>-->
+                        <!--                        <li class='menu-item'><a href='/ordering'>Оформлення</a></li>-->
                     </ul>
                 </div>
                 <ul class='tel'>
@@ -112,3 +112,10 @@
     </a>
 </div>
 <main class='home <?php if (!is_page_template('pages/home.php')) echo "pt-header"; ?>'>
+    <div class="zoom-popup d-none">
+        <div class="zoom-popup-inner">
+            <img class="zoom-image-js" src=''
+                 alt=''>
+            <span class="zoom-close">x</span>
+        </div>
+    </div>

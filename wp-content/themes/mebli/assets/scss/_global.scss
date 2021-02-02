@@ -199,6 +199,39 @@ section .swiper-button-prev, section .swiper-button-next {
   }
 }
 
+.zoom-popup {
+  position:        fixed;
+  z-index:         100;
+  left:            0;
+  top:             0;
+  background:      rgba(0, 0, 0, 0.8);
+  width:           100%;
+  height:          100%;
+  text-align:      center;
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  transition: .3s linear;
+  img {
+    max-width:  100vw;
+    max-height: 100vh;
+    width:      auto;
+    margin:     0 auto;
+  }
+  span {
+    font-size:  30px;
+    color:      $whiteColor;
+    position:   absolute;
+    right:      1rem;
+    top:        1rem;
+    cursor:     pointer;
+    transition: .3s linear;
+    &:hover, &:active {
+      opacity: .7;
+    }
+  }
+}
+
 @media screen and (max-width: 1230px) {
   .container {
     padding: 0 30px;

@@ -159,7 +159,7 @@
                 <!-- Slides -->
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -181,7 +181,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -194,7 +194,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -207,7 +207,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -216,7 +216,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -229,7 +229,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-1.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -238,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-2.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -251,7 +251,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-3.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -264,7 +264,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-4.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -277,7 +277,7 @@
                 </div>
                 <div class="swiper-slide">
                     <div class='previously-item'>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-5.png'
                                  alt=''>
                             <div class='item-bg'>
@@ -286,7 +286,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class='item-image'>
+                        <div class='item-image zoom-js'>
                             <img src='<?php echo get_template_directory_uri() ?>/assets/images/previously-image-6.png'
                                  alt=''>
                             <div class='item-bg'>

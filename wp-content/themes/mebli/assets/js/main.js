@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         this.classList.toggle("active");
         menu.classList.toggle("mobile-menu")
     });
+
     // Select
     function handleSelect() {
         const currentSelected = document.getElementsByClassName('select-selected');
@@ -224,6 +225,27 @@ document.addEventListener('DOMContentLoaded', function () {
             loading[i].style.opacity = '0';
         }
     }, 3000);
+
+    // Zooming
+    const ShowZoomPopup = () => {
+        const zoomPopup = document.getElementsByClassName('zoom-popup')[0];
+        const zoomImage = document.getElementsByClassName('zoom-image-js')[0];
+        const zoomClose = document.getElementsByClassName('zoom-close')[0];
+        const images = document.getElementsByClassName('zoom-js');
+        for (let i = 0; i < images.length; i++) {
+            const src = images[i].children[0].getAttribute('src');
+            images[i].addEventListener('click', function () {
+                console.log()
+                zoomPopup.classList.remove('d-none');
+                zoomImage.setAttribute('src', src);
+            });
+        }
+        zoomClose.addEventListener('click', function () {
+            zoomPopup.classList.add('d-none');
+        });
+    }
+
+    ShowZoomPopup();
 
 });
 
