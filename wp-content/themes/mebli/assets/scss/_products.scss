@@ -203,9 +203,10 @@
   }
   &-inner {
     .transformation-list {
-      display:         flex;
-      justify-content: space-between;
-      align-items:     stretch;
+      display:               grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows:    repeat(3, 13vw);
+      gap:                   1.73vw 1.73vw;
     }
     .transformation-item {
       display:         flex;
