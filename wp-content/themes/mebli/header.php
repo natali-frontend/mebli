@@ -33,8 +33,6 @@
                         <li class='menu-item'><a href='/about-store'>Про магазин</a></li>
                         <li class='menu-item'><a href='/gallery'>Галерея</a></li>
                         <li class='menu-item'><a href='/catalog'>Каталог</a></li>
-                        <!--                        <li class='menu-item'><a href='/products'>Товар</a></li>-->
-                        <!--                        <li class='menu-item'><a href='/ordering'>Оформлення</a></li>-->
                     </ul>
                 </div>
                 <ul class='tel'>
