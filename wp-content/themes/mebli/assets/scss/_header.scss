@@ -377,7 +377,7 @@
           ul {
             li {
               a {
-                font-size: 20px;
+                font-size: 18px;
               }
             }
           }
@@ -432,10 +432,11 @@
         .header-top {
           padding: 20px 30px 5px;
           .menu {
-            ul
-            li {
-              a {
-                color: $blackColor;
+            ul {
+              li {
+                a {
+                  color: $blackColor;
+                }
               }
             }
           }
