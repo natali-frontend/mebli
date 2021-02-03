@@ -151,8 +151,8 @@
             </div>
         </div>
     </section>
-    <?php include get_template_directory() . '/template-part/previously-product.php'; ?>
-    <?php include get_template_directory() . '/template-part/viewed-products.php'; ?>
+<?php include get_template_directory() . '/template-part/previously-product.php'; ?>
+<?php include get_template_directory() . '/template-part/viewed-products.php'; ?>
     <script>
         // Header
         const header = document.getElementById("header");
