@@ -107,7 +107,7 @@
                 <!-- Slider main container-->
                 <div class="swiper-container suggestions-swiper">
                     <!-- If we need navigation buttons -->
-                    <div class="swiper-navigation swiper-button-prev"></div>
+                    <div class="swiper-button-prev"></div>
                     <!--Additional required wrapper-->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
