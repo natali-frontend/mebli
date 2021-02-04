@@ -99,7 +99,7 @@
                             варианты.
                         </p>
                     </div>
-                    <a href='/catalog'>
+                    <a class='suggestions-link' href='/catalog'>
                         <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/left-arrow.svg' alt=''>
                         Каталог товаров
                     </a>
