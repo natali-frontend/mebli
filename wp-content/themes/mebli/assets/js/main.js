@@ -258,11 +258,6 @@ document.addEventListener('DOMContentLoaded', function () {
             e.preventDefault();
             const id = anchor.getAttribute("href");
             const block = document.querySelector(id);
-            if (window.innerWidth < 992) {
-                burger.classList.toggle("active");
-                menu.classList.toggle("mobile-menu");
-                header.classList.toggle("header-mobile");
-            }
             window.scroll({
                 top: block.offsetTop - 100,
                 left: 0,
