@@ -4,6 +4,15 @@
   .home .banner .btn:hover {
     color: $whiteColor;
   }
+  .suggestions .suggestions-link:hover {
+    img {
+      position: relative;
+      left:     -15px;
+    }
+  }
+  .suggestions .suggestions-swiper.swiper-container .swiper-button-prev:hover {
+    transform: translate(-10px, 0);
+  }
 }
 
 .home {
@@ -99,6 +108,12 @@
         right:     0;
         top:       50%;
         transform: translate(16%, -50%);
+        .swiper-button-prev {
+          pointer-events: visible;
+          opacity:        1;
+          cursor:         pointer;
+          left:           15px;
+        }
         .swiper-slide {
           margin-right: 0;
           width:        30%;

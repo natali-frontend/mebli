@@ -7,6 +7,12 @@
   .viewed-products-item .item-description a:hover {
     color: $baseColor;
   }
+  .viewed-products .swiper-button-next:hover {
+    transform: translate(10px, 0);
+  }
+  .viewed-products .swiper-button-prev:hover {
+    transform: translate(-10px, 0);
+  }
 }
 
 .viewed-products {
