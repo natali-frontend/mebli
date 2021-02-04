@@ -157,3 +157,24 @@
     }
   }
 }
+
+//animation
+.gallery-photography {
+  .photography-inner {
+    .photography-list {
+      .photography-item {
+        transform: scale(1);
+        animation: photographyAnim 1s linear 0s reverse forwards;
+      }
+    }
+  }
+}
+
+@keyframes photographyAnim {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.92);
+  }
+}

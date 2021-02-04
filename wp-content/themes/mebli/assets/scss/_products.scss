@@ -475,3 +475,24 @@
     }
   }
 }
+
+// animation
+.transformation {
+  &-inner {
+    .transformation-list {
+      .transformation-image {
+        transform: scale(1);
+        animation: bannerAnim 1.5s linear 0s reverse forwards;
+      }
+    }
+  }
+}
+
+@keyframes bannerAnim {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}

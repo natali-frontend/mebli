@@ -200,11 +200,9 @@
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
                          alt=''>
                 </div>
-
                 <div class='transformation-image'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg' alt=''>
                 </div>
-
                 <div class='item-image'>
                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
                          alt=''>

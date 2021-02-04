@@ -92,7 +92,7 @@
         content:    "";
         position:   absolute;
         top:        -6.6%;
-        left:       -10.7%;
+        left:       -9.3%;
         width:      100%;
         height:     100%;
         z-index:    -1;
@@ -194,7 +194,6 @@
     }
   }
 }
-
 
 @media screen and (max-width: 992px) {
   .shop {
@@ -342,5 +341,28 @@
         }
       }
     }
+  }
+}
+
+// animation
+.about-store-production {
+  .production-inner {
+    .inner-image {
+      &:before {
+        animation:       bannerAnim 1.5s linear 0s reverse forwards;
+        top:        -6.6%;
+        left:       -9.3%;
+      }
+    }
+  }
+}
+@keyframes bannerAnim {
+  0% {
+    bottom:        -6.6%;
+    right:       -9.3%;
+  }
+  100% {
+    top:        6.6%;
+    left:       9.3%;
   }
 }
