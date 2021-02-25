@@ -43,9 +43,12 @@
     .item-description {
       padding-left: 10px;
       a {
-        font-size:   38px;
+        font-size:   29px;
         font-weight: bold;
         color:       $blackColor;
+      }
+      p {
+        font-size: 20px;
       }
     }
   }
@@ -55,8 +58,9 @@
   .viewed-products {
     &-item {
       .item-description {
+        padding-left: 0;
         a {
-          font-size: 30px;
+          font-size: 25px;
         }
       }
     }
@@ -68,7 +72,10 @@
     &-item {
       .item-description {
         a {
-          font-size: 22px;
+          font-size: 19px;
+        }
+        p {
+          font-size: 16px;
         }
       }
     }
@@ -91,6 +98,9 @@
       .item-description {
         a {
           font-size: 18px;
+        }
+        p {
+          font-size: 15px;
         }
       }
     }
@@ -118,11 +128,6 @@
     &-item {
       .item-image {
         margin-bottom: 10px;
-      }
-      .item-description {
-        a {
-          font-size: 18px;
-        }
       }
     }
   }
