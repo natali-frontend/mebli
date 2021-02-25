@@ -114,33 +114,33 @@
                         <div class="swiper-slide">
                             <div class='viewed-products-item'>
                                 <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-8.png'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.jpg'
                                          alt=''>
                                 </div>
                                 <div class='item-description'>
-                                    <p>Lorem ipsum</p>
+                                    <p>Барон Мини</p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class='viewed-products-item'>
                                 <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-6.png'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.jpg'
                                          alt=''>
                                 </div>
                                 <div class='item-description'>
-                                    <p>Lorem ipsum</p>
+                                    <p>Угловой Лорд</p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class='viewed-products-item'>
                                 <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-2.png'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.jpg'
                                          alt=''>
                                 </div>
                                 <div class='item-description'>
-                                    <p>Lorem ipsum</p>
+                                    <p>Трансформер Домино</p>
                                 </div>
                             </div>
                         </div>
@@ -151,7 +151,7 @@
             </div>
         </div>
     </section>
-<?php include get_template_directory() . '/template-part/previously-product.php'; ?>
+<?php //include get_template_directory() . '/template-part/previously-product.php'; ?>
 <?php include get_template_directory() . '/template-part/viewed-products.php'; ?>
     <script>
         // Header

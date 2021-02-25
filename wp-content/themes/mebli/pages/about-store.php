@@ -18,16 +18,16 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-1.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.jpg' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-2.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.jpg' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-3.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.jpg' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-4.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/armchair-1.jpg' alt=''>
                         </div>
                     </div>
                 </div>
@@ -36,16 +36,16 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-1.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.jpg' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-2.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.jpg' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-3.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.jpg' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/shop-image-4.png' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/armchair-1.jpg' alt=''>
                         </div>
                     </div>
                 </div>
@@ -144,6 +144,6 @@
     </div>
     <a href='/catalog' class='btn'>Наши изделия</a>
 </section>
-<?php include get_template_directory() . '/template-part/previously-product.php'; ?>
+<?php //include get_template_directory() . '/template-part/previously-product.php'; ?>
 <?php include get_template_directory() . '/template-part/viewed-products.php'; ?>
 <?php get_footer(); ?>
