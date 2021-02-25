@@ -94,7 +94,7 @@ document.addEventListener('DOMContentLoaded', function () {
             },
             993: {
                 slidesPerView: 3,
-                spaceBetween: 60,
+                spaceBetween: 30,
             }
         },
         // Navigation arrows
