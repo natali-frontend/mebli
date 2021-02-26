@@ -27,14 +27,13 @@
                     <img class="logo-home"
                          src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
                 </a>
-                <div class='menu'>
-                    <ul>
-                        <li class='menu-item active'><a href='/'>Главная</a></li>
-                        <li class='menu-item'><a href='/about-store'>Про магазин</a></li>
-                        <li class='menu-item'><a href='/gallery'>Галерея</a></li>
-                        <li class='menu-item'><a href='/catalog'>Каталог</a></li>
-                    </ul>
-                </div>
+                <?php
+                    wp_nav_menu( array(
+                        'container_class' => 'menu',              // (string) class контейнера (div тега)
+                        'menu_class'=>'menu-inner',
+                        'theme_location'=>'top',
+                    ) );
+                ?>
                 <ul class='tel'>
                     <li>
                         <a href='tel:+(380)900-000-000'>+(380)900-000-000</a>
