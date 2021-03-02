@@ -17,7 +17,7 @@
                                 $price = get_field_object('product_price');
                                 $images = get_field_object('product_images');
                             ?>
-                            <a href='<?php echo get_permalink(); ?>' class='item-image'>
+                            <a href="<?php echo get_permalink(); ?>" class='item-image'>
                                 <div class='loading'>
                                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg'
                                          alt=''>
