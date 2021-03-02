@@ -8,11 +8,11 @@
                 <div class="swiper-slide">
                     <div class='viewed-products-item'>
                         <a href='/about-store' class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.jpg'
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.png '
                                  alt=''>
                         </a>
                         <div class='item-description'>
-                            <a href='/about-store'>Барон Мини</a>
+                            <a href='/about-store'>Барон 140</a>
                             <p>40 352 ₴</p>
                         </div>
                     </div>
@@ -20,11 +20,11 @@
                 <div class="swiper-slide">
                     <div class='viewed-products-item'>
                         <a href='/about-store' class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.jpg'
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.png'
                                  alt=''>
                         </a>
                         <div class='item-description'>
-                            <a href='/about-store'>Угловой Лорд</a>
+                            <a href='/about-store'>Лорд Угловой</a>
                             <p>28 260 ₴</p>
                         </div>
                     </div>
@@ -32,7 +32,7 @@
                 <div class="swiper-slide">
                     <div class='viewed-products-item'>
                         <a href='/about-store' class='item-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.jpg'
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-8.png'
                                  alt=''>
                         </a>
                         <div class='item-description'>

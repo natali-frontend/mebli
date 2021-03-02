@@ -1,6 +1,7 @@
 <?php /* Template Name: Page - Home */ ?>
 <?php get_header(); ?>
     <section class='banner'>
+        <img src='<?php echo get_template_directory_uri() ?>/assets/images/hero-bg.jpg' alt=''>
         <div class='banner-overlay'>
             <div class='container'>
                 <div class='banner-inner'>
@@ -114,29 +115,29 @@
                         <div class="swiper-slide">
                             <div class='viewed-products-item'>
                                 <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.jpg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.png'
                                          alt=''>
                                 </div>
                                 <div class='item-description'>
-                                    <p>Барон Мини</p>
+                                    <p>Барон 140</p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class='viewed-products-item'>
                                 <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.jpg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.png'
                                          alt=''>
                                 </div>
                                 <div class='item-description'>
-                                    <p>Угловой Лорд</p>
+                                    <p>Лорд Угловой</p>
                                 </div>
                             </div>
                         </div>
                         <div class="swiper-slide">
                             <div class='viewed-products-item'>
                                 <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.jpg'
+                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-8.png'
                                          alt=''>
                                 </div>
                                 <div class='item-description'>
