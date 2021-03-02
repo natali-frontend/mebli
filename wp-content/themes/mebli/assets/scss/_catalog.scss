@@ -36,6 +36,9 @@
           .main-image {
             opacity:    0;
             transition: .3s linear;
+            object-fit:    contain;
+            margin-bottom: 20px;
+            max-height:    95%;
           }
           .loading {
             position:   absolute;
