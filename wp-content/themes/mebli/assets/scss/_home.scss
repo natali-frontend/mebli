@@ -295,15 +295,17 @@
 
 // animation
 .banner {
-  background-size: 100%;
-  animation:       bannerAnim 3s linear 0s reverse forwards;
+  img {
+    transform: scale(1);
+    animation: bannerAnim 3s linear 0s reverse forwards;
+  }
 }
 
 @keyframes bannerAnim {
   0% {
-    background-size: 100%;
+    transform: scale(1);
   }
   100% {
-    background-size: 106%;
+    transform: scale(1.2);
   }
 }
