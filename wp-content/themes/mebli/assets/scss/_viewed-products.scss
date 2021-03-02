@@ -34,10 +34,18 @@
   }
   &-item {
     .item-image {
-      margin-bottom: 30px;
-      display:       inline-block;
+      margin-bottom:   30px;
+      display:         flex;
+      justify-content: center;
+      align-items:     center;
+      height:          25vw;
       &:active {
         opacity: .7;
+      }
+      img {
+        object-fit:    contain;
+        margin-bottom: 20px;
+        max-height:    95%;
       }
     }
     .item-description {
