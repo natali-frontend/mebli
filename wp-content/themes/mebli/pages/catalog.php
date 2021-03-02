@@ -6,27 +6,29 @@
                 <?php
                     $current_page = (get_query_var('paged')) ? get_query_var('paged') : 1;
                     $params = array(
-                        'posts_per_page' => 5,
+                        'posts_per_page' => 10,
                         'post_type' => 'post',
                         'paged' => $current_page
                     );
                     query_posts($params);
                     while (have_posts()) : the_post(); ?>
                         <li class='inner-item'>
+                            <?php
+                                $price = get_field_object('product_price');
+                                $images = get_field_object('product_images');
+                            ?>
                             <a href='<?php echo get_permalink(); ?>' class='item-image'>
                                 <div class='loading'>
                                     <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg'
                                          alt=''>
                                 </div>
                                 <img class='main-image'
-                                     src='<?php echo get_template_directory_uri() ?>/assets/images/armchair-1.jpg'
+                                     src='<?php echo $images['value'][0]['url'] ?>'
                                      alt=''>
                             </a>
                             <div class='item-description'>
-                                <?php
-                                    $field = get_field_object('product_price');
-                                ?> <h2><?php echo get_the_title(); ?></h2>
-                                <p><?php echo $field['value']; ?></p>
+                                <h2><?php echo get_the_title(); ?></h2>
+                                <p><?php echo $price['value']; ?></p>
                             </div>
                         </li>
                     <?php endwhile; ?>
