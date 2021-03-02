@@ -29,7 +29,10 @@
         }
         .item-image {
           position: relative;
-          display:  block;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 25vw;
           .main-image {
             opacity:    0;
             transition: .3s linear;
