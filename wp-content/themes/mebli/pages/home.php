@@ -112,39 +112,31 @@
                     <!--Additional required wrapper-->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide">
-                            <div class='viewed-products-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.png'
-                                         alt=''>
-                                </div>
-                                <div class='item-description'>
-                                    <p>Барон 140</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class='viewed-products-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.png'
-                                         alt=''>
-                                </div>
-                                <div class='item-description'>
-                                    <p>Лорд Угловой</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class='viewed-products-item'>
-                                <div class='item-image'>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-8.png'
-                                         alt=''>
-                                </div>
-                                <div class='item-description'>
-                                    <p>Трансформер Домино</p>
-                                </div>
-                            </div>
-                        </div>
+                        <?php
+                            $current_page = (get_query_var('paged')) ? get_query_var('paged') : 1;
+                            $params = array(
+                                'posts_per_page' => 10,
+                                'post_type' => 'post',
+                                'paged' => $current_page
+                            );
+                            query_posts($params);
+                            while (have_posts()) : the_post();
+                                if (get_field_object('product_suggestions')): ?>
+                                    <?php
+                                    $images = get_field_object('product_images');
+                                    ?>
+                                    <div class="swiper-slide">
+                                        <div class='viewed-products-item'>
+                                            <div class='item-image'>
+                                                <img src="<?php echo $images['value'][0]['url'] ?>" alt=''>
+                                            </div>
+                                            <div class='item-description'>
+                                                <p><?php echo get_the_title(); ?></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <?php endif; endwhile; ?>
+                        <?php wp_reset_postdata(); ?>
                     </div>
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
