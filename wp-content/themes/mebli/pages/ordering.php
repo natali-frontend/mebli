@@ -38,12 +38,10 @@
             </div>
             <div class='order-description'>
                 <div class='description-item'>
-                    <h2>Продукт</h2>
-                    <p>
+                    <h2 id="name">Продукт</h2>
+                    <p id="description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     </p>
                 </div>
                 <div class='description-item'>
