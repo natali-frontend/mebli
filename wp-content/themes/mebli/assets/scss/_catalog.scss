@@ -11,7 +11,7 @@
 
 .catalog {
   &-inner {
-    padding-top: 140px;
+    padding-top: 40px;
     .container {
       max-width: 1750px;
     }
@@ -61,7 +61,6 @@
   .catalog {
     &-inner {
       .inner-list {
-        padding: 60px 0 0;
         .inner-item {
           margin-bottom: 30px;
         }
@@ -75,8 +74,9 @@
     z-index:    -1;
     background: $primaryColor;
     &-inner {
+      padding-top: 0;
       .inner-list {
-        padding:        30px 0 30px;
+        padding:        0 0 30px;
         flex-direction: column;
         align-items:    center;
         .inner-item {
