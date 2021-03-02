@@ -349,20 +349,21 @@
   .production-inner {
     .inner-image {
       &:before {
-        animation:       bannerAnim 1.5s linear 0s reverse forwards;
-        top:        -6.6%;
-        left:       -9.3%;
+        animation: aboutAnim 1.5s linear 0s reverse forwards;
+        top:       -6.6%;
+        left:      -9.3%;
       }
     }
   }
 }
-@keyframes bannerAnim {
+
+@keyframes aboutAnim {
   0% {
-    bottom:        -6.6%;
-    right:       -9.3%;
+    bottom: -6.6%;
+    right:  -9.3%;
   }
   100% {
-    top:        6.6%;
-    left:       9.3%;
+    top:  6.6%;
+    left: 9.3%;
   }
 }
