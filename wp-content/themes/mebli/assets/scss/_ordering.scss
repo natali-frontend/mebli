@@ -78,6 +78,9 @@
         }
         &:last-child {
           margin-bottom: 0;
+          h2 {
+            margin-bottom: 20px;
+          }
         }
       }
     }
@@ -174,6 +177,9 @@
           }
           &:last-child {
             margin-bottom: 0;
+            h2 {
+              margin-bottom: 10px;
+            }
           }
           h2 {
             font-size: 18px;
