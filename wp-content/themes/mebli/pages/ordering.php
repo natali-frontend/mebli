@@ -27,7 +27,12 @@
             </div>
             <div class='order-description'>
                 <div class='description-item'>
-                    <h2 id="name">Продукт</h2>
+                    <div class='item-title'>
+                        <div class='title-image'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.png' alt=''>
+                        </div>
+                        <h2 id="name">Продукт</h2>
+                    </div>
                     <p id="description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
