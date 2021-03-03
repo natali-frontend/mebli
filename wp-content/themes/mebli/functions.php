@@ -6,6 +6,7 @@
 
         wp_enqueue_script('swiper-js', get_stylesheet_directory_uri() . '/assets/vendors/Swiper/Swiper.js');
         wp_enqueue_script('main-js', get_stylesheet_directory_uri() . '/assets/js/main.js');
+        wp_enqueue_script('localstorage-js', get_stylesheet_directory_uri() . '/assets/js/localstorage.js');
     }
 
     register_nav_menus(array(
