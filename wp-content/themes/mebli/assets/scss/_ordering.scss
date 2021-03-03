@@ -62,9 +62,6 @@
       justify-content: center;
       width:           43.1%;
       padding-right:   7.3%;
-      h2 {
-        margin-bottom: 20px;
-      }
       .description-item {
         margin-bottom: 15%;
         .item-title {
@@ -179,8 +176,7 @@
             margin-bottom: 0;
           }
           h2 {
-            font-size:     18px;
-            margin-bottom: 15px;
+            font-size: 18px;
           }
           p {
             font-size:   16px;
@@ -234,13 +230,12 @@
         width: 100%;
         .description-item {
           border-radius: 15px;
-          padding:       10px 15px;
           margin-bottom: 15px;
           &:last-child {
             margin-bottom: 0;
           }
           h2 {
-            font-size: 14px;
+            font-size: 16px;
           }
           p {
             font-size:   14px;
