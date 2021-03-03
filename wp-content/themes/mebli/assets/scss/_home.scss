@@ -113,7 +113,7 @@
         }
         .swiper-slide {
           margin-right: 0;
-          width:        30%;
+          width:        33%;
         }
       }
     }
@@ -277,16 +277,20 @@
             display: none;
           }
         }
-        .viewed-products-item {
-          padding:       20px 5px;
-          border-radius: 20px;
-          .item-image {
-            margin-bottom: 0;
+      }
+      .viewed-products-item {
+        padding:       20px 10px;
+        border-radius: 20px;
+        .item-image {
+          margin-bottom: 10px;
+          height:        33vw;
+          img {
+            max-height: 100%;
           }
         }
-        .item-description {
-          text-align: center;
-        }
+      }
+      .item-description {
+        text-align: center;
       }
     }
   }
