@@ -37,7 +37,7 @@
       display:         flex;
       justify-content: center;
       align-items:     center;
-      height:          25vw;
+      height:          20vw;
       &:active {
         opacity: .7;
       }
@@ -133,6 +133,7 @@
     }
     &-item {
       .item-image {
+        height:        33vw;
         margin-bottom: 10px;
       }
     }

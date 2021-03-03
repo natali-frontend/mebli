@@ -124,7 +124,10 @@
       padding:       15.5% 5px;
       background:    $whiteColor;
       .item-image {
-        height: 15vw;
+        height: 13vw;
+        img {
+          max-height: 85%;
+        }
         &:active {
           opacity: .7;
         }
