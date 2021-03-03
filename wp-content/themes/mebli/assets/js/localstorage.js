@@ -11,11 +11,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     if (JSON.parse(localStorage.getItem('product'))) {
-        const name = document.getElementById('name');
+        const name = document.getElementsByClassName('name-js');
         const description = document.getElementById('description');
-        if (name) {
-            name.innerHTML = JSON.parse(localStorage.getItem('product'))['name'];
-            description.innerHTML = `${JSON.parse(localStorage.getItem('product'))['description'].slice(0, 166)}...`;
+        for (let i = 0; i < name.length; i++) {
+            if (name[i]) {
+                name[1].innerHTML = JSON.parse(localStorage.getItem('product'))['name'];
+                name[0].value = JSON.parse(localStorage.getItem('product'))['name'];
+                description.innerHTML = `${JSON.parse(localStorage.getItem('product'))['description'].slice(0, 166)}...`;
+            }
         }
     }
 
