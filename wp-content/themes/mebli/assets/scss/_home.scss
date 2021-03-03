@@ -11,7 +11,7 @@
     }
   }
   .suggestions .suggestions-swiper.swiper-container .swiper-button-prev:hover {
-    transform: translate(-10px, 0);
+    transform: translate(-10px, -50%);
   }
 }
 
@@ -109,6 +109,7 @@
           opacity:        1;
           cursor:         pointer;
           left:           15px;
+          transform:      translate(0, -50%);
         }
         .swiper-slide {
           margin-right: 0;
@@ -123,6 +124,7 @@
       padding:       15.5% 5px;
       background:    $whiteColor;
       .item-image {
+        height: 15vw;
         &:active {
           opacity: .7;
         }
