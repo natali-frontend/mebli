@@ -50,7 +50,7 @@
                     <a href='#fabrics'>Ткани</a>
                     <a href='#transformation'>Анимация трансформации</a>
                 </div>
-                <a id="ordering" href='/ordering' class='btn' data-name="<?php echo get_the_title(); ?>" data-description="<?php echo $description['value']; ?>">Заказать</a>
+                <a id="ordering" href='ordering' class='btn' data-name="<?php echo get_the_title(); ?>" data-description="<?php echo $description['value']; ?>">Заказать</a>
             </div>
         </div>
 

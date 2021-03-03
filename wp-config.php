@@ -78,6 +78,7 @@ $table_prefix = 'wp_';
  */
 define( 'WP_DEBUG', false );
 define( 'FS_METHOD', 'direct' );
+define('WPCF7_AUTOP', false );
 
 /* Это всё, дальше не редактируем. Успехов! */
 
