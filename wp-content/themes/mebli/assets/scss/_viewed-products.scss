@@ -42,8 +42,8 @@
         opacity: .7;
       }
       img {
-        object-fit:    contain;
-        max-height:    95%;
+        object-fit: contain;
+        max-height: 75%;
       }
     }
     .item-description {
@@ -135,6 +135,9 @@
       .item-image {
         height:        33vw;
         margin-bottom: 10px;
+        img {
+          max-height: 100%;
+        }
       }
     }
   }
