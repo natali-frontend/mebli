@@ -18,16 +18,16 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.png' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.png' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.png' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/armchair-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/armchair-1.png' alt=''>
                         </div>
                     </div>
                 </div>
@@ -36,16 +36,16 @@
                     <div class="swiper-wrapper">
                         <!-- Slides -->
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.png' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/lord-1.png' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/domino-1.png' alt=''>
                         </div>
                         <div class="swiper-slide">
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/armchair-1.jpg' alt=''>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/armchair-1.png' alt=''>
                         </div>
                     </div>
                 </div>
