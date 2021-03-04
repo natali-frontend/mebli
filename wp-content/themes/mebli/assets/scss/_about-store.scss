@@ -63,16 +63,20 @@
         padding:    10px 0;
         overflow:   visible;
         position:   relative;
-        .swiper-wrapper {
-          .swiper-slide {
-            display:     flex;
-            align-items: center;
-            background:  $whiteColor;
-            width:       420px;
-            padding:     20px;
-            &:active {
-              opacity: .7;
-            }
+        .swiper-slide {
+          display:         flex;
+          justify-content: center;
+          align-items:     center;
+          height:          10vw;
+          background:      $whiteColor;
+          width:           420px;
+          padding:         10px;
+          &:active {
+            opacity: .7;
+          }
+          img {
+            object-fit: contain;
+            max-height: 90%;
           }
         }
       }
