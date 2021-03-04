@@ -322,8 +322,18 @@
         display: none;
       }
       .shop-slider {
-        width:  80%;
-        margin: 0 auto;
+        width:          80%;
+        margin:         0 auto;
+        padding-bottom: 30px;
+        .swiper-shop-top {
+          .swiper-slide {
+            height: 50vw;
+            img {
+              max-width:  350px;
+              max-height: 100%;
+            }
+          }
+        }
       }
       .shop-description {
         width:         100%;
