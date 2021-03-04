@@ -316,17 +316,6 @@
     &:after {
       width: 100%;
     }
-    &:before {
-      content:       "";
-      bottom:        0;
-      left:          0;
-      width:         445px;
-      height:        333px;
-      background:    $whiteColor;
-      z-index:       -1;
-      transform:     rotate(0) translate(0, 2%);
-      border-radius: 50%;
-    }
     &-inner {
       flex-direction: column;
       .swiper-shop {
@@ -350,7 +339,7 @@
     }
   }
   .about-store-production {
-    padding-top: 60px;
+    padding-top: 50px;
     .production-inner {
       flex-direction:  column;
       justify-content: center;
