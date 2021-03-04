@@ -41,8 +41,7 @@
   &-inner {
     display:         flex;
     justify-content: space-between;
-    align-items:     center;
-    padding-top:     40px;
+    padding-top:     5%;
     .shop-slider {
       width:     45.65vw;
       max-width: 870px;
@@ -201,7 +200,24 @@
 @media screen and (max-width: 992px) {
   .shop {
     &-inner {
-      padding-top: 20px;
+      padding-top: 0;
+      .shop-slider {
+        .swiper-shop-top {
+          .swiper-slide {
+            img {
+              max-height: 70%;
+            }
+          }
+        }
+        .swiper-shop {
+          .swiper-slide {
+            height: 11vw;
+            img {
+              max-height: 100%;
+            }
+          }
+        }
+      }
       .shop-description {
         h1 {
           font-size:     30px;
