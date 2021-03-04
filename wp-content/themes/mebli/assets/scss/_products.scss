@@ -40,6 +40,18 @@
       justify-content: center;
       .swiper-container {
         width: 38.55vw;
+        &.swiper-review-top {
+          .swiper-slide {
+            display:         flex;
+            justify-content: center;
+            align-items:     center;
+            height:          25vw;
+            img {
+              object-fit:    contain;
+              max-height:    90%;
+            }
+          }
+        }
         &.swiper-review {
           box-sizing: border-box;
           padding:    10px 0;
