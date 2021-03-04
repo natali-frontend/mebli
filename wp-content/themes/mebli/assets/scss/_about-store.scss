@@ -45,6 +45,18 @@
     .shop-slider {
       width:     45.65vw;
       max-width: 870px;
+      .swiper-shop-top {
+        .swiper-slide {
+          display:         flex;
+          justify-content: center;
+          align-items:     center;
+          height:          30vw;
+          img {
+            object-fit: contain;
+            max-height: 75%;
+          }
+        }
+      }
       .swiper-shop {
         height:     20%;
         box-sizing: border-box;
@@ -168,8 +180,19 @@
 
 @media screen and (max-width: 1230px) {
   .shop {
-    h1 {
-      font-size: 40px;
+    &-inner {
+      .shop-slider {
+        .swiper-shop-top {
+          .swiper-slide {
+            height: 35vw;
+          }
+        }
+      }
+      .shop-description {
+        h1 {
+          font-size: 40px;
+        }
+      }
     }
   }
   .about-store-production {
