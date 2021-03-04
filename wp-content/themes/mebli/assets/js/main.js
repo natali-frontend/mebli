@@ -197,12 +197,17 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     let SwiperShop = new Swiper('.swiper-shop', {
         // Optional parameters
-        spaceBetween: 30,
+        spaceBetween: 10,
         freeMode: true,
         watchSlidesVisibility: true,
         watchSlidesProgress: true,
         breakpoints: {
             650: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            993: {
+                spaceBetween: 30,
                 slidesPerView: 2,
             },
         },
@@ -213,7 +218,15 @@ document.addEventListener('DOMContentLoaded', function () {
         spaceBetween: 10,
         thumbs: {
             swiper: SwiperShop
-        }
+        },
+        breakpoints: {
+            650: {
+                spaceBetween: 20,
+            },
+            993: {
+                spaceBetween: 30,
+            },
+        },
     });
 
     //    Loading on Catalog page
