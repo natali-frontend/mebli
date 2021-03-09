@@ -47,8 +47,8 @@
                 </div>
                 <div class='review-buttons'>
                     <a href='#feature'>Характеристика</a>
-                    <a href='#fabrics'>Ткани</a>
-                    <a href='#transformation'>Анимация трансформации</a>
+<!--                    <a href='#fabrics'>Ткани</a>-->
+<!--                    <a href='#transformation'>Анимация трансформации</a>-->
                 </div>
                 <a id="ordering" href='ordering' class='btn' data-name="<?php echo get_the_title(); ?>" data-description="<?php echo $description['value']; ?>">Заказать</a>
             </div>
@@ -56,163 +56,173 @@
 
     </div>
 </section>
-<!--
 <section id="feature" class='feature'>
     <div class='container'>
         <div class='feature-description'>
             <h2>Характеристика</h2>
             <div class='description-list'>
                 <div class='description-item'>
-                    <p>Характеристика</p>
+                    <h3>Размеры</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        Стандартные размеры кресла Лорд: 100см ширина, 100см глубина, 105см высота.
+                        Спальное место кресла Лорд: 55см ширина, 200см глубина.
                     </p>
                 </div>
                 <div class='description-item'>
-                    <p>Характеристика</p>
+                    <h3>Опции</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        Кресло Лорд можно по вашему желанию, изготовить с увеличенными параметрами ширины, добавить под
+                        сиденьем нишу для белья, или раскладное спальное место,
+                        если же Вы не нуждаетесь в даных опциях, можно изготовить полностью нераскладное кресло. Или
+                        Вам нужен другой вариант обивки, тогда свяжитесь с нашим менеджером,
+                        и он подберет подходящую под ваши требования ткань.
+                    </p>
+                </div>
+                <div class='description-item'>
+                    <h3>Изготовление/ доствка</h3>
+                    <p>
+                        Мебель изготовляется от 7 до 14 дней после поступления заказа, с гарантийным сроком 12 месяцев,
+                        доствка по Киеву бесплатная, по Киевской области рассчитывается отдельно.
+                        Во все остальные области Украины можно осуществить доставку через почтовую службу "Нова пошта",
+                        или самовывозом с производства.
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<section id="fabrics" class='fabrics'>
-    <h2 class='title'>Ткани</h2>
-    <div class='container'>
-        <div class='fabrics-inner'>
-            <div class='fabrics-image'>
-                <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.png' alt=''>
-            </div>
-            <div class="swiper-container swiper-fabrics">
-                // Additional required wrapper
-                <div class="swiper-wrapper">
-                   // If we need navigation buttons
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                    // Slides
-                    <div class="swiper-slide">
-                        <div class='fabrics-material'>
-                            <div class='material-list'>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-1.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-2.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-3.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-4.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-5.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-6.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-7.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-8.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-9.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-10.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-11.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-12.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-13.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-14.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-15.jpg'
-                                         alt=''></div>
-                                <div class='material-item'>
-                                    <span>1</span>
-                                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/fabrics-image-16.jpg'
-                                         alt=''></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section id="transformation" class='transformation'>
-    <h2 class='title'>Анимация трансформации</h2>
-    <div class='container'>
-        <div class='transformation-inner'>
-            <div class='transformation-list'>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-                <div class='transformation-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg' alt=''>
-                </div>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-                <div class='item-image'>
-                    <img src='<?php echo get_template_directory_uri() ?>/assets/images/catalog-image-1.jpg'
-                         alt=''>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
--->
+<!--<section id="fabrics" class='fabrics'>-->
+<!--    <h2 class='title'>Ткани</h2>-->
+<!--    <div class='container'>-->
+<!--        <div class='fabrics-inner'>-->
+<!--            <div class='fabrics-image'>-->
+<!--                <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.png' alt=''>-->
+<!--            </div>-->
+<!--            <div class="swiper-container swiper-fabrics">-->
+<!--                // Additional required wrapper-->
+<!--                <div class="swiper-wrapper">-->
+<!--                   // If we need navigation buttons-->
+<!--                    <div class="swiper-button-prev"></div>-->
+<!--                    <div class="swiper-button-next"></div>-->
+<!--                    // Slides-->
+<!--                    <div class="swiper-slide">-->
+<!--                        <div class='fabrics-material'>-->
+<!--                            <div class='material-list'>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-1.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-2.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-3.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-4.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-5.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-6.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-7.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-8.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-9.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-10.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-11.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-12.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-13.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-14.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-15.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                                <div class='material-item'>-->
+<!--                                    <span>1</span>-->
+<!--                                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/fabrics-image-16.jpg'-->
+<!--                                         alt=''></div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+<!--<section id="transformation" class='transformation'>-->
+<!--    <h2 class='title'>Анимация трансформации</h2>-->
+<!--    <div class='container'>-->
+<!--        <div class='transformation-inner'>-->
+<!--            <div class='transformation-list'>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--                <div class='transformation-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg' alt=''>-->
+<!--                </div>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--                <div class='item-image'>-->
+<!--                    <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/catalog-image-1.jpg'-->
+<!--                         alt=''>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
 <?php //include get_template_directory() . '/template-part/previously-product.php'; ?>
 <?php get_footer(); ?>
