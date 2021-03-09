@@ -127,9 +127,9 @@
                                     ?>
                                     <div class="swiper-slide">
                                         <div class='viewed-products-item'>
-                                            <div class='item-image'>
+                                            <a href='<?php echo get_permalink(); ?>' class='item-image'>
                                                 <img src="<?php echo $images['value'][0]['url'] ?>" alt=''>
-                                            </div>
+                                            </a>
                                             <div class='item-description'>
                                                 <p><?php echo get_the_title(); ?></p>
                                             </div>
