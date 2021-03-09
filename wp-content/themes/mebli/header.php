@@ -103,6 +103,14 @@
         </div>
     </div>
 </header>
+<div class='preloader'>
+    <div class='logo'>
+        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
+    </div>
+    <div class='loading'>
+        <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
+    </div>
+</div>
 <div class='call'>
     <a href='tel:+(380)900-000-000' class='call-icon'>
         <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/call.svg" alt="">
