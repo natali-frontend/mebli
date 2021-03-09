@@ -423,6 +423,9 @@
           &.swiper-review-top {
             margin-bottom: 15px;
             width:         100%;
+            .swiper-slide {
+              height: 56vw;
+            }
             .swiper-pagination-bullets {
               .swiper-pagination-bullet {
                 display: inline-block;
