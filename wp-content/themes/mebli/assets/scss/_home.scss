@@ -155,6 +155,10 @@
     .banner {
       min-height:    761px;
       margin-bottom: 55px;
+      img {
+        object-fit: cover;
+        min-height: 761px;
+      }
       &-inner {
         justify-content: center;
         .inner-description {
@@ -197,8 +201,13 @@
 @media screen and (max-width: 650px) {
   .home {
     .banner {
+      height:        100vh;
       min-height:    480px;
       margin-bottom: 50px;
+      img {
+        object-fit: cover;
+        height:     100vh;
+      }
       &-inner {
         .inner-description {
           h1 {

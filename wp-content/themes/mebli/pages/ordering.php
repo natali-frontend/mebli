@@ -28,9 +28,9 @@
             <div class='order-description'>
                 <div class='description-item'>
                     <div class='item-title'>
-                        <div class='title-image'>
-                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/baron-1.png' alt=''>
-                        </div>
+<!--                        <div class='title-image'>-->
+<!--                            <img src='--><?php //echo get_template_directory_uri() ?><!--/assets/images/baron-1.png' alt=''>-->
+<!--                        </div>-->
                         <h2 class="name-js">Продукт</h2>
                     </div>
                     <p id="description">
