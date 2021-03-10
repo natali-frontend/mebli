@@ -165,9 +165,8 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
         },
         navigation: {
-            el: '.swiper-navigation',
-            clickable: true,
-        }
+            prevEl: '.swiper-button-prev',
+        },
     });
     let SwiperReview = new Swiper('.swiper-review', {
         // Optional parameters
