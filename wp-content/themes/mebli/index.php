@@ -91,6 +91,68 @@
         </div>
     </div>
 </section>
+<section class='advantages products-advantages'>
+    <div class='advantages-content'>
+        <div class='container'>
+            <div class='advantages-inner'>
+                <!-- Slider main container -->
+                <div class="swiper-container swiper-products-advantages swiper-no-swiping">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class='inner-item'>
+                                <div class='item-description'>
+                                    <h4>Оплата</h4>
+                                    <ul>
+                                        <li>Наличные при получении</li>
+                                        <li>Безналичный расчет</li>
+                                        <li>Рассрочка 0%</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='inner-item'>
+                                <div class='item-description'>
+                                    <h4>Доставка</h4>
+                                    <ul>
+                                        <li>Самовывоз из магазина в Киеве</li>
+                                        <li>Доставка по Киеву</li>
+                                        <li>Доставка по тарифам перевозчика</li
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='inner-item'>
+                                <div class='item-description'>
+                                    <h4>Гарантия</h4>
+                                    <ul>
+                                        <li>Гарантия 24 месяца</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class='inner-item'>
+                                <div class='item-description'>
+                                    <h4>Обмен / Возврат</h4>
+                                    <ul>
+                                        <li>Возврат в течение 14 дней согласно ЗУ "О защите прав потребителя"</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--<section id="fabrics" class='fabrics'>-->
 <!--    <h2 class='title'>Ткани</h2>-->
 <!--    <div class='container'>-->

@@ -81,6 +81,33 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
         },
     });
+    let mySwiperAdvantages = new Swiper('.swiper-products-advantages', {
+        // Optional parameters
+        slidesPerView: 1,
+        spaceBetween: 15,
+        noSwiping: false,
+        preventClicks: false,
+        breakpoints: {
+            650: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            993: {
+                slidesPerView: 3,
+                spaceBetween: 25,
+            },
+            1400: {
+                slidesPerView: 4,
+                spaceBetween: 25,
+                noSwiping: true,
+            }
+        },
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
     let mySwiperViewed = new Swiper('.swiper-viewed', {
         // Optional parameters
         slidesPerView: 1,

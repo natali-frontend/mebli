@@ -13,22 +13,34 @@
   h4 {
     font-size:     20px;
     margin-bottom: 25px;
-    position:      relative;
-    z-index:       1;
-    &:after {
-      content:       "";
-      width:         28px;
-      height:        28px;
-      background:    $primaryColor;
-      border-radius: 50px;
-      position:      absolute;
-      bottom:        0;
-      left:          -10px;
-      z-index:       -1;
+  }
+  li {
+    position:    relative;
+    font-size:   18px;
+    line-height: 1.7;
+    &:before {
+      content:  "-";
+      position: absolute;
+      left:     -15px;
     }
   }
   &.about-store-advantages {
     margin-bottom: 4.7%;
+    h4 {
+      position: relative;
+      z-index:  1;
+      &:after {
+        content:       "";
+        width:         28px;
+        height:        28px;
+        background:    $primaryColor;
+        border-radius: 50px;
+        position:      absolute;
+        bottom:        0;
+        left:          -10px;
+        z-index:       -1;
+      }
+    }
     .advantages-content {
       margin-bottom: 5.21%;
       .advantages-inner {
@@ -39,6 +51,19 @@
           }
         }
       }
+    }
+  }
+  &.products-advantages {
+    text-align: left;
+    .advantages-inner {
+      .inner-item {
+        .item-description {
+          padding: 11.5% 20px 11.5% 11.5%;
+        }
+      }
+    }
+    h4 {
+      margin-bottom: 15px;
     }
   }
   &-content {
@@ -115,6 +140,19 @@
         }
       }
     }
+    &.products-advantages {
+      .advantages-inner {
+        padding: 3.33% 0 2%;
+        .swiper-container {
+          padding-bottom: 45px;
+          .swiper-pagination-bullets {
+            .swiper-pagination-bullet {
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
   }
 }
 
@@ -122,6 +160,15 @@
   .advantages {
     h4 {
       margin-bottom: 20px;
+    }
+    &.products-advantages {
+      .advantages-inner {
+        .inner-item {
+          .item-description {
+            padding: 10% 20px 10% 11.5%;
+          }
+        }
+      }
     }
     &.about-store-advantages {
       .advantages-inner {
@@ -160,6 +207,9 @@
         left:   -8px;
       }
     }
+    li {
+      font-size: 18px;
+    }
     &.about-store-advantages {
       margin-bottom: 7.2%;
       .advantages-content {
@@ -174,6 +224,11 @@
             }
           }
         }
+      }
+    }
+    &.products-advantages {
+      h4 {
+        font-size: 18px;
       }
     }
     &-inner {
@@ -209,6 +264,10 @@
     h4 {
       font-size: 18px;
     }
+    li {
+      font-size:   16px;
+      line-height: 1.5;
+    }
     &.about-store-advantages {
       margin-bottom: 6%;
       .advantages-inner {
@@ -219,6 +278,16 @@
               font-size: 14px;
             }
           }
+        }
+      }
+    }
+    &.products-advantages {
+      h4 {
+        margin-bottom: 10px;
+      }
+      .advantages-inner {
+        .swiper-container {
+          padding-bottom: 35px;
         }
       }
     }
