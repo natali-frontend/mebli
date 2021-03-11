@@ -104,9 +104,6 @@
     </div>
 </header>
 <div class='preloader'>
-    <div class='logo'>
-        <img src="<?php echo get_template_directory_uri() ?>/assets/images/icons/logo-black.svg" alt="">
-    </div>
     <div class='loading'>
         <img src='<?php echo get_template_directory_uri() ?>/assets/images/icons/loading.svg' alt=''>
         <p>Loading...</p>
