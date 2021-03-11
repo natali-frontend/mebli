@@ -289,7 +289,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     ShowZoomPopup();
 
-
     // Smooth animation
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
@@ -304,7 +303,12 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+   window.onload = function () {
+       let preloader = document.getElementById("preloader");
+       preloader.style.display = "none"
+   }
 });
+
 
 
 
