@@ -156,14 +156,13 @@ form {
 
 .preloader {
   position:        fixed;
-  z-index:         100;
-  width:           100%;
-  height:          100vh;
-  background:      $whiteColor;
-  display:         flex;
-  flex-direction:  column;
+  z-index:         1000;
+  display: flex;
   justify-content: center;
-  align-items:     center;
+  align-items: center;
+  width:           100%;
+  height:          100%;
+  background:      $whiteColor;
   .loading {
     width:           100%;
     display:         flex;
@@ -326,6 +325,14 @@ section .swiper-button-prev, section .swiper-button-next {
   .container {
     padding: 0 15px;
   }
+  .preloader {
+    .loading {
+      img {
+        width: 35px;
+        margin-bottom: 10px;
+      }
+    }
+  }
   .swiper-container {
     .swiper-pagination-bullets {
       height: 10px;
@@ -381,5 +388,23 @@ section .swiper-button-prev, section .swiper-button-next {
   }
   .pt-header {
     padding-top: 55px;
+  }
+}
+
+.preloader {
+  .loading {
+    p {
+      opacity: 0;
+      animation: preloaderAnim 1.2s ease-in-out 0s infinite forwards;
+    }
+  }
+}
+
+@keyframes preloaderAnim {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
