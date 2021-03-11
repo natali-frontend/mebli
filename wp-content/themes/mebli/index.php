@@ -152,7 +152,26 @@
         </div>
     </div>
 </section>
-
+<section class='mattress'>
+    <h2 class='title'>Матрас</h2>
+    <div class='container'>
+        <div class='mattress-inner'>
+            <div class='mattress-description'>
+                <ul>
+                    <li>Мебельная ткань</li>
+                    <li>Синтепонт</li>
+                    <li>Пенополиуретан</li>
+                    <li>Войлок</li>
+                    <li>Пружинный блок</li>
+                    <li>Каркас сосна</li>
+                </ul>
+            </div>
+            <div class='mattress-image'>
+                <img src='<?php echo get_template_directory_uri() ?>/assets/images/mattress.png' alt=''>
+            </div>
+        </div>
+    </div>
+</section>
 <!--<section id="fabrics" class='fabrics'>-->
 <!--    <h2 class='title'>Ткани</h2>-->
 <!--    <div class='container'>-->
