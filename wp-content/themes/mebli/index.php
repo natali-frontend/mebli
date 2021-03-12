@@ -5,6 +5,29 @@
     $description = get_field_object('product_description');
 ?>
 <section class='review'>
+    <div class='review-zoom'>
+        <div class='review-zoom-slider'>
+            <div class='close'>
+                <span></span>
+            </div>
+            <div class="swiper-container swiper-review-zoom">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <?php
+                    foreach ($images['value'] as $image_id): ?>
+                        <div class="swiper-slide">
+                            <img src="<?php echo $image_id['url']; ?>"
+                                 alt=''>
+                        </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
     <div class='container'>
         <div class='review-inner'>
             <div class='review-slider'>
@@ -15,7 +38,7 @@
                         <?php
                             foreach ($images['value'] as $image_id): ?>
                                 <div class="swiper-slide">
-                                    <img src="<?php echo $image_id['url']; ?>" alt=''>
+                                    <img class='review-zoom-image' src="<?php echo $image_id['url']; ?>" alt=''>
                                 </div>
                             <?php endforeach; ?>
                     </div>

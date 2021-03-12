@@ -221,6 +221,16 @@ document.addEventListener('DOMContentLoaded', function () {
             clickable: true,
         },
     });
+    let SwiperReviewZoom = new Swiper('.swiper-review-zoom', {
+        // Optional parameters
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 15,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
     let SwiperShop = new Swiper('.swiper-shop', {
         // Optional parameters
         spaceBetween: 10,
@@ -306,7 +316,22 @@ document.addEventListener('DOMContentLoaded', function () {
    window.onload = function () {
        let preloader = document.getElementById("preloader");
        preloader.style.display = "none"
-   }
+   };
+
+    //Review Zoom
+    const img = document.getElementsByClassName("review-zoom-image");
+    const popup = document.getElementsByClassName("review-zoom")[0];
+    const close = document.getElementsByClassName("close")[0];
+    for (let i = 0; i < img.length; i++) {
+        img[i].addEventListener("click", function () {
+            popup.style.opacity = "1";
+            popup.style.visibility = "visible";
+        });
+    }
+    close.addEventListener("click", function () {
+        popup.style.opacity = "0";
+        popup.style.visibility = "hidden";
+    });
 });
 
 
