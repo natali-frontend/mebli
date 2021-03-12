@@ -315,7 +315,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
    window.onload = function () {
        let preloader = document.getElementById("preloader");
-       preloader.style.display = "none"
+       preloader.style.opacity = "0";
+       preloader.style.visibility = "hidden";
    };
 
     //Review Zoom
