@@ -156,6 +156,8 @@ form {
 
 .preloader {
   position:        fixed;
+  top:             0;
+  left:            0;
   z-index:         1000;
   display: flex;
   justify-content: center;
@@ -397,7 +399,7 @@ section .swiper-button-prev, section .swiper-button-next {
 .preloader {
   .loading {
     p {
-      opacity: 0;
+      opacity:   0;
       animation: preloaderAnim 1.2s ease-in-out 0s infinite forwards;
     }
   }
