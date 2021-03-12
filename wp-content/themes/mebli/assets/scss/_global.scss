@@ -224,6 +224,9 @@ section .swiper-button-prev, section .swiper-button-next {
     color:     #27B3B6;
     font-size: 32px;
   }
+  &:active {
+    opacity: .7;
+  }
 }
 
 .zoom-popup {
