@@ -110,6 +110,27 @@
                         или самовывозом с производства.
                     </p>
                 </div>
+                <div class='description-item'>
+                    <h3>Чертежи</h3>
+                    <ul class='description-list'>
+                        <li class='list-item'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/scheme.jpg' alt=''>
+                        </li>
+                        <li class='list-item'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/scheme.jpg' alt=''>
+                        </li>
+                        <li class='list-item'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/scheme.jpg' alt=''>
+                        </li>
+                        <li class='list-item'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/scheme.jpg' alt=''>
+                        </li> <li class='list-item'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/scheme.jpg' alt=''>
+                        </li> <li class='list-item'>
+                            <img src='<?php echo get_template_directory_uri() ?>/assets/images/scheme.jpg' alt=''>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
